@@ -19,13 +19,46 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/power-digital-marketing-inc-/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2251 San Diego Avenue ",
       "city": "San Diego",
       "state": "CA",
       "country": "US",
       "postalCode": "92110",
-      "phone": "+1 (619) 613-2751"
+      "phone": "+1 (619) 613-2751",
+      "description": "Power Digital is a full-service digital marketing agency specializing in advertising services, paid media, and branding. Most reviews highlight their strategic, data-driven approach and robust project management skills, with 100% of clients praising their ability to integrate seamlessly as part of the client's team. While two reviews noted communication improvements, overall satisfaction is high, with significant growth in metrics like revenue and customer engagement."
+    }
+  },
+  {
+    "name": "SmartSites",
+    "website": "https://clutch.co/profile/smartsites#reviews",
+    "services": [
+      "10% Advertising",
+      "50% Search Engine Optimization",
+      "30% Pay Per Click\n                                \n                                    \n                                        \n                                        +1 service",
+      "10% Social Media Marketing"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "288\n                        \n                            reviews",
+    "price": "$1,000+",
+    "companySize": "250 - 999",
+    "hrsRate": "$100 - $149",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/smartsites/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "45 Eisenhower Drive",
+      "city": "Paramus",
+      "state": "NJ",
+      "country": "US",
+      "postalCode": "07652",
+      "phone": "2018706000",
+      "description": "SmartSites is a prominent advertising agency specializing in SEM, SEO, and PPC advertising services. Consistently praised for their affordability and dependability, 100% of reviews highlight their exceptional project management and responsiveness. Approximately 70% of reviewers note significant improvements in ROAS, making SmartSites a reliable partner for achieving paid marketing objectives."
     }
   },
   {
@@ -46,13 +79,16 @@
     "hrsRate": "$50 - $99",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/in/lyfemarketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "50 Hurt Plaza",
       "city": "Atlanta",
       "state": "GA",
       "country": "US",
       "postalCode": "30303",
-      "phone": "4045967925"
+      "phone": "4045967925",
+      "description": "LYFE Marketing is a comprehensive advertising agency specializing in social media management, paid media, and marketing promotions. With a focus on delivering tailored strategies, 88% of clients praised their responsiveness and ability to meet objectives like increased sales and improved online presence. However, 12% noted areas for improvement, particularly in communication during critical times."
     }
   },
   {
@@ -73,13 +109,16 @@
     "hrsRate": "$50 - $99",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/algofy/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "395 SW Bluff Dr",
       "city": "Bend",
       "state": "OR",
       "country": "US",
       "postalCode": "97702",
-      "phone": "3235614581"
+      "phone": "3235614581",
+      "description": "Algofy is an advertising agency specializing in digital marketing and paid media services. The company receives overwhelmingly positive feedback, with nearly 100% of reviewers praising their expertise in managing social media campaigns and delivering exceptional ROAS results. Clients commend Algofy for its professional project management and alignment with industry best practices, highlighting its effective communication and responsiveness."
     }
   },
   {
@@ -106,13 +145,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/definedchase",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "Vilnius Tech Park 12th building. Antakalnio g. 17",
       "city": "Vilnius",
       "state": "N/A",
       "country": "LT",
       "postalCode": "10312",
-      "phone": "+37067633847"
+      "phone": "+37067633847",
+      "description": "Defined Chase is a proficient Advertising Agency specializing in Ads, Marketing, and Paid Media services. They excel in PPC, retargeting, and strategic planning, achieving notable outcomes such as increased sales and improved ROI. With 100% positive feedback, clients commend their technical expertise, timely delivery, and effective communication, highlighting their ability to align with client values and drive significant growth."
     }
   },
   {
@@ -127,24 +169,27 @@
     "clients": [],
     "languages": "N/A",
     "rating": "4.8",
-    "reviews": "28\n                        \n                            reviews",
+    "reviews": "29\n                        \n                            reviews",
     "price": "$1,000+",
     "companySize": "10 - 49",
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/favoured",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2 Stephen Street",
       "city": "London",
       "state": "N/A",
       "country": "GB",
       "postalCode": "W1T 1AN",
-      "phone": "0203 488 2548"
+      "phone": "0203 488 2548",
+      "description": "Favoured is an Advertising Agency specializing in digital marketing, paid media, and advertising services. Clients consistently praise their strategic expertise and creative ad campaigns, leading to significant user and brand growth. Approximately 90% of reviews highlight their effective project management and dedication, while 80% commend their innovative approach in media buying and audience engagement."
     }
   },
   {
     "name": "C42D",
-    "website": "https://clutch.co/profile/c42d#reviews",
+    "website": "https://clutch.co/profile/c42d?service_provided=Advertising#reviews",
     "services": [
       "10% Advertising",
       "80% Branding",
@@ -159,13 +204,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/c42d-creative-inc/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "315 W 36th Street",
       "city": "New York",
       "state": "NY",
       "country": "US",
       "postalCode": "10018",
-      "phone": "6467654477"
+      "phone": "6467654477",
+      "description": "C42D is an advertising agency specializing in branding and design, including logo creation and visual identity services. Reviewers consistently praise C42D for their strong communication, detailed attention, and commitment to client success, with approximately 100% positive feedback highlighting their creative insights and effective project management. Their ability to understand and adapt to specific industry needs, such as e-sports and global communications, is particularly notable."
     }
   },
   {
@@ -186,13 +234,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/medm-agency/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "104 – 1240 Kensington Rd. NW, Suite 323",
       "city": "Calgary",
       "state": "AB",
       "country": "CA",
       "postalCode": "T2N 3P7",
-      "phone": "+14037750506"
+      "phone": "+14037750506",
+      "description": "MeDM is a versatile advertising agency specializing in branding, digital marketing, and media buying. Reviews highlight their impressive creativity and project management skills, with a 100% positive feedback rate. Clients frequently commend their ability to drive significant business growth and enhance online visibility through effective marketing campaigns and innovative ad strategies. MeDM's strong expertise in SEO and paid media is also noted by reviewers."
     }
   },
   {
@@ -217,18 +268,21 @@
     "hrsRate": "$200 - $300",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/80379272/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "12042 Blanco Road",
       "city": "San Antonio",
       "state": "TX",
       "country": "US",
       "postalCode": "78216",
-      "phone": "917-633-0929"
+      "phone": "917-633-0929",
+      "description": "Impactable is an advertising agency specializing in LinkedIn Ads and paid marketing services. The reviews indicate mixed feedback, with approximately 50% of clients praising their expertise, responsiveness, and ability to generate leads, while others expressed dissatisfaction with project management and results. A recurring theme is their strong knowledge of LinkedIn advertising, with several clients highlighting their strategic insights and effective communication."
     }
   },
   {
     "name": "Facqt",
-    "website": "https://clutch.co/profile/facqt",
+    "website": "https://clutch.co/profile/facqt#contact",
     "services": [
       "30% Advertising",
       "40% Video Production",
@@ -244,13 +298,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/facqtmedia/?viewasmember=true",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "3634 Kingsley Street",
       "city": "Oakland",
       "state": "CA",
       "country": "US",
       "postalCode": "94610",
-      "phone": "9257686696"
+      "phone": "9257686696",
+      "description": "Facqt is a digital marketing company specializing in social media strategy, evidenced by their successful reduction in cost per acquisition for Gridwise by over 40%. Reviews highlight their effective project management and creative testing, with 100% positive feedback emphasizing their analytical approach and adaptability. However, some suggest further exploration of unconventional strategies."
     }
   },
   {
@@ -275,13 +332,16 @@
     "hrsRate": "$50 - $99",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/11810697",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "276 5th Avenue",
       "city": "New York",
       "state": "NY",
       "country": "US",
       "postalCode": "10001",
-      "phone": "+44 20 4577 2405"
+      "phone": "+44 20 4577 2405",
+      "description": "Ninja Promo is a dynamic advertising agency specializing in marketing, promotions, and paid media services. With a strong emphasis on digital marketing strategies, they excel in enhancing brand visibility and generating qualified leads. Across reviews, clients report satisfaction with their project management, timely delivery, and strategic insight, with over 90% mentioning their professionalism and responsiveness."
     }
   },
   {
@@ -301,13 +361,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/anchour",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "199 Lisbon St Suite A",
       "city": "Lewiston",
       "state": "ME",
       "country": "US",
       "postalCode": "04240",
-      "phone": "207-210-2001"
+      "phone": "207-210-2001",
+      "description": "Anchour is a comprehensive advertising agency specializing in digital branding, marketing, and advertising services. With an impressive 100% positive feedback rate, clients highlight their exceptional project management, creativity, and ability to deliver cohesive brand strategies and engaging ad content. Anchour's services span branding refreshes, website development, and paid media, showcasing their expertise in creating effective promotional materials and digital marketing campaigns."
     }
   },
   {
@@ -329,13 +392,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/dragon360/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "8 North Front Street",
       "city": "Kingston",
       "state": "NY",
       "country": "US",
       "postalCode": "12401",
-      "phone": "8453830890"
+      "phone": "8453830890",
+      "description": "Dragon360 is a proficient Advertising Agency specializing in Paid Media and comprehensive advertising services. The company is highly praised, with over 90% of feedback highlighting their strategic agility, effective communication, and tailored approach to client objectives. Reviewers frequently commend their project management skills and ability to deliver timely, high-quality results, making them a reliable partner for various advertising and marketing needs."
     }
   },
   {
@@ -358,13 +424,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/caffeinemarketingatl/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "6595 Roswell Road Suite G2790",
       "city": "Atlanta",
       "state": "GA",
       "country": "US",
       "postalCode": "30328",
-      "phone": "(404) 923-0370"
+      "phone": "(404) 923-0370",
+      "description": "Caffeine Marketing is an advertising agency specializing in paid media, branding, and social media campaigns. With a strong emphasis on professionalism and effective communication, they have consistently delivered impressive results, helping clients achieve significant returns on investment and improved marketing strategies. Approximately 100% of reviewers commend their expertise and responsiveness, with no reported areas for improvement."
     }
   },
   {
@@ -387,13 +456,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/neuelane/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "8267 Northeast 2nd Avenue #101",
       "city": "Miami",
       "state": "FL",
       "country": "US",
       "postalCode": "33138",
-      "phone": "3058006383"
+      "phone": "3058006383",
+      "description": "neuelane is an advertising agency specializing in branding, marketing, and advertising services, particularly in creating engaging campaigns and media content. Consistently praised across reviews, 100% of the clients highlighted their collaborative approach, creativity, and understanding of brand identity. While excellent at branding and advertising, some reviews suggested room for improvement in digital marketing. Overall, clients experienced increased engagement and brand affinity."
     }
   },
   {
@@ -417,13 +489,16 @@
     "hrsRate": "$25 - $49",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/inpulseagency",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "95 Merrick Way, 3rd Floor",
       "city": "Coral Gables",
       "state": "FL",
       "country": "US",
       "postalCode": "33134",
-      "phone": "3054004282"
+      "phone": "3054004282",
+      "description": "INPULSE is a digital marketing agency specializing in strategic content creation, social media management, and digital marketing campaigns for the media and entertainment industry. Overall, their reviews exhibit a positive sentiment, with 100% of reviewers highlighting their strong project management and the agency's impressive data-driven decision-making. The agency is praised for its ability to integrate seamlessly with clients, becoming true business partners."
     }
   },
   {
@@ -444,13 +519,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/2739585/admin/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "628 N. Broadway",
       "city": "Milwaukee",
       "state": "TN",
       "country": "US",
       "postalCode": "53202",
-      "phone": "9712257780"
+      "phone": "9712257780",
+      "description": "Manifesto Agency is a distinguished advertising agency specializing in branding, marketing, and experiential campaigns. With a strong focus on employee engagement and brand alignment, they have successfully executed high-caliber projects for notable clients, including Amazon and healthcare organizations. Over 90% of reviews highlight their creativity and strategic insight, emphasizing their ability to deliver innovative and culturally resonant branding solutions."
     }
   },
   {
@@ -476,219 +554,50 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/rocket-clicks",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N56W13345 Silver Spring Dr",
       "city": "Menomonee Falls",
       "state": "WI",
       "country": "US",
       "postalCode": "53051",
-      "phone": "2624372334"
+      "phone": "2624372334",
+      "description": "Rocket Clicks is a digital marketing agency specializing in SEO, PPC, and web development solutions to enhance clients' online presence and lead generation. Across numerous reviews, Rocket Clicks consistently receives positive feedback for their tailored strategies, responsive communication, and collaborative approach, with over 90% of reviewers highlighting their professionalism and effectiveness. Clients frequently commend the team’s expertise, commitment to partnership, and ability to generate measurable results, contributing to an overall positive perception of their services."
     }
   },
   {
-    "name": "WebFX",
-    "website": "https://clutch.co/profile/webfx#reviews",
+    "name": "Marketbridge",
+    "website": "https://clutch.co/profile/marketbridge-0#reviews",
     "services": [
-      "5% Advertising",
-      "70% Search Engine Optimization",
-      "5% Content Marketing\n                                \n                                    \n                                        \n                                        +4 services",
-      "5% Email Marketing",
-      "5% Pay Per Click",
-      "5% Social Media Marketing",
-      "5% Web Development"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "397\n                        \n                            reviews",
-    "price": "$1,000+",
-    "companySize": "250 - 999",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/webfxinc/",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "Out Origin",
-    "website": "https://clutch.co/profile/out-origin-0",
-    "services": [
-      "15% Advertising",
-      "15% Web Development",
-      "10% Ecommerce Marketing\n                                \n                                    \n                                        \n                                        +6 services",
-      "10% Email Marketing",
-      "10% Mobile App Development",
-      "10% Pay Per Click",
-      "10% Search Engine Optimization",
+      "20% Advertising",
+      "20% Digital Strategy",
+      "10% Branding\n                                \n                                    \n                                        \n                                        +5 services",
+      "10% Marketing Strategy",
+      "10% Media Planning & Buying",
+      "10% Public Relations",
       "10% Social Media Marketing",
       "10% Web Design"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.8",
-    "reviews": "41\n                        \n                            reviews",
-    "price": "$1,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/outorigin",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "Ninja Promo",
-    "website": "https://clutch.co/profile/ninja-promo#reviews",
-    "services": [
-      "10% Advertising",
-      "20% Social Media Marketing",
-      "15% Mobile & App Marketing\n                                \n                                    \n                                        \n                                        +5 services",
-      "15% Other Digital Marketing",
-      "10% Blockchain Marketing",
-      "10% Digital Strategy",
-      "10% Pay Per Click",
-      "10% Search Engine Optimization"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.8",
-    "reviews": "50\n                        \n                            reviews",
-    "price": "$5,000+",
-    "companySize": "50 - 249",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/11810697",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "REQ",
-    "website": "https://clutch.co/profile/req#reviews",
-    "services": [
-      "40% Advertising",
-      "25% Public Relations",
-      "15% Search Engine Optimization\n                                \n                                    \n                                        \n                                        +2 services",
-      "10% Branding",
-      "10% Ecommerce Marketing"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "53\n                        \n                            reviews",
-    "price": "$25,000+",
-    "companySize": "50 - 249",
-    "hrsRate": "$200 - $300",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/req/",
-    "location": {
-      "street": "1701 Rhode Island Avenue Northwest",
-      "city": "Washington",
-      "state": "DC",
-      "country": "US",
-      "postalCode": "20036",
-      "phone": "202-654-0800"
-    }
-  },
-  {
-    "name": "SmartSites",
-    "website": "https://clutch.co/profile/smartsites#reviews",
-    "services": [
-      "10% Advertising",
-      "50% Search Engine Optimization",
-      "30% Pay Per Click\n                                \n                                    \n                                        \n                                        +1 service",
-      "10% Social Media Marketing"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "288\n                        \n                            reviews",
-    "price": "$1,000+",
-    "companySize": "250 - 999",
-    "hrsRate": "$100 - $149",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/smartsites/",
-    "location": {
-      "street": "45 Eisenhower Drive",
-      "city": "Paramus",
-      "state": "NJ",
-      "country": "US",
-      "postalCode": "07652",
-      "phone": "2018706000"
-    }
-  },
-  {
-    "name": "Jives Media",
-    "website": "https://clutch.co/profile/jives-media#reviews",
-    "services": [
-      "15% Advertising",
-      "25% Pay Per Click",
-      "25% Search Engine Optimization\n                                \n                                    \n                                        \n                                        +3 services",
-      "15% Branding",
-      "10% Email Marketing",
-      "10% Social Media Marketing"
     ],
     "clients": [],
     "languages": "N/A",
     "rating": "5.0",
-    "reviews": "326\n                        \n                            reviews",
-    "price": "$1,000+",
-    "companySize": "10 - 49",
+    "reviews": "11\n                        \n                            reviews",
+    "price": "$50,000+",
+    "companySize": "250 - 999",
     "hrsRate": "N/A",
     "email": "Not Found",
-    "linkedin": "http://www.linkedin.com/company/jivesmedia",
+    "linkedin": "https://www.linkedin.com/company/marketbridge/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "Wildish & Co.",
-    "website": "https://clutch.co/profile/wildish-co#reviews",
-    "services": [
-      "10% Advertising",
-      "40% Branding",
-      "20% Graphic Design\n                                \n                                    \n                                        \n                                        +3 services",
-      "10% Marketing Strategy",
-      "10% Social Media Marketing",
-      "10% Web Design"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "41\n                        \n                            reviews",
-    "price": "$25,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/wildish-&amp;-co/about/",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "Marketbridge is an advertising agency known for its expertise in marketing, branding, and digital strategies. The company excels in delivering measurable outcomes, with multiple clients reporting significant increases in brand awareness and lead generation. Additionally, the agency is praised for its effective project management and adaptability, with over 90% of reviews highlighting their strong collaboration and strategic approach."
     }
   },
   {
@@ -714,13 +623,78 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/brandlume-inc/about/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "BrandLume Inc. is an Advertising Agency specializing in advertising services, media buying, and paid marketing. The company is praised for its pricing, excellent project management, and tailored marketing strategies. With 100% positive feedback, clients appreciate their responsiveness, creativity, and effectiveness in driving website traffic and increasing brand awareness. Notably, 67% of reviewers mention the company's ability to deliver results within budget constraints."
+    }
+  },
+  {
+    "name": "Hotspex Media",
+    "website": "https://clutch.co/profile/hotspex-media#reviews",
+    "services": [
+      "10% Advertising",
+      "60% Media Planning & Buying",
+      "10% Marketing Strategy\n                                \n                                    \n                                        \n                                        +2 services",
+      "10% Pay Per Click",
+      "10% Social Media Marketing"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "15\n                        \n                            reviews",
+    "price": "$50,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/hotspex-media-ads",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Hotspex Media is a prominent Advertising Agency specializing in digital marketing and media buying, offering comprehensive advertising services. Clients praise Hotspex Media for their exceptional attention to detail and project management capabilities, with 100% of reviewers expressing satisfaction with their on-time and on-budget delivery. Their consultative approach and ability to adapt to challenges further highlight their strength in promoting brand awareness and executing effective campaigns."
+    }
+  },
+  {
+    "name": "REQ",
+    "website": "https://clutch.co/profile/req#reviews",
+    "services": [
+      "40% Advertising",
+      "25% Public Relations",
+      "15% Search Engine Optimization\n                                \n                                    \n                                        \n                                        +2 services",
+      "10% Branding",
+      "10% Ecommerce Marketing"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "53\n                        \n                            reviews",
+    "price": "$25,000+",
+    "companySize": "50 - 249",
+    "hrsRate": "$200 - $300",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/req/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "1701 Rhode Island Avenue Northwest",
+      "city": "Washington",
+      "state": "DC",
+      "country": "US",
+      "postalCode": "20036",
+      "phone": "202-654-0800",
+      "description": "REQ is a versatile Advertising Agency offering comprehensive services, including advertising, PR, content creation, branding, and media buying. They are lauded for their communication skills, project management, and strong client relationships. With over 80% positive feedback, clients frequently highlight their commitment to client success, strategic media management, and ability to enhance brand visibility and engagement. Notably, 90% of reviewers commend their adaptability and detailed-oriented approach, ensuring effective marketing solutions tailored to clients' needs."
     }
   },
   {
@@ -740,13 +714,110 @@
     "hrsRate": "0",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/trivium-group-llc",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "3311 S LA CIENEGA BLVD ",
       "city": "Los Angeles",
       "state": "CA",
       "country": "US",
       "postalCode": "90016",
-      "phone": "2038221802"
+      "phone": "2038221802",
+      "description": "Trivium Group is an advertising agency specializing in Amazon advertising and digital marketing services. Across numerous reviews, 100% of clients commend their effective strategies in enhancing ads and profitability, with notable improvements in metrics like ROAS and conversion rates. Additionally, their project management and client-oriented approach are consistently praised, with many highlighting their exceptional communication and alignment with company values."
+    }
+  },
+  {
+    "name": "Digital Natives",
+    "website": "https://clutch.co/profile/digital-natives-0-0?service_provided=Advertising#reviews",
+    "services": [
+      "90% Advertising",
+      "10% Search Engine Optimization"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "5.0",
+    "reviews": "10\n                        \n                            reviews",
+    "price": "$5,000+",
+    "companySize": "2 - 9",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/digital-natives-media",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Digital Natives is a proficient Advertising Agency specializing in paid media, media buying, and digital marketing services. The company consistently receives high praise for its responsiveness, efficiency, and expertise, with 100% of reviewers highlighting their organized project management and rapid adaptability. Clients appreciate their ability to drive measurable outcomes and strategic execution in advertising services."
+    }
+  },
+  {
+    "name": "Ninja Promo",
+    "website": "https://clutch.co/profile/ninja-promo#reviews",
+    "services": [
+      "10% Advertising",
+      "20% Social Media Marketing",
+      "15% Mobile & App Marketing\n                                \n                                    \n                                        \n                                        +5 services",
+      "15% Other Digital Marketing",
+      "10% Blockchain Marketing",
+      "10% Digital Strategy",
+      "10% Pay Per Click",
+      "10% Search Engine Optimization"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.8",
+    "reviews": "50\n                        \n                            reviews",
+    "price": "$5,000+",
+    "companySize": "50 - 249",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/11810697",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Ninja Promo is a dynamic advertising agency specializing in marketing, promotions, and paid media services. With a strong emphasis on digital marketing strategies, they excel in enhancing brand visibility and generating qualified leads. Across reviews, clients report satisfaction with their project management, timely delivery, and strategic insight, with over 90% mentioning their professionalism and responsiveness."
+    }
+  },
+  {
+    "name": "Jives Media",
+    "website": "https://clutch.co/profile/jives-media#reviews",
+    "services": [
+      "15% Advertising",
+      "25% Pay Per Click",
+      "25% Search Engine Optimization\n                                \n                                    \n                                        \n                                        +3 services",
+      "15% Branding",
+      "10% Email Marketing",
+      "10% Social Media Marketing"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "5.0",
+    "reviews": "326\n                        \n                            reviews",
+    "price": "$1,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "http://www.linkedin.com/company/jivesmedia",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Jives Media is an advertising agency specializing in SEO, PPC, and digital marketing services. Feedback from their clients is largely positive, with around 75% of reviews highlighting their effective project management and timely deliverables. However, a minority, about 12.5%, reported dissatisfaction due to misalignment with client goals and communication issues, indicating room for improvement in responsiveness and customization of strategies."
     }
   },
   {
@@ -768,13 +839,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/savage-global-marketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "515 E Las Olas Boulevard, Suite 120",
       "city": "Fort Lauderdale",
       "state": "FL",
       "country": "US",
       "postalCode": "33301",
-      "phone": "9546332963"
+      "phone": "9546332963",
+      "description": "Savage Global Marketing is an advertising agency specializing in digital marketing, paid media, and branding services. Their clients consistently commend them for excellent project management, responsive communication, and delivering high-quality results on time. Nearly all reviewers praised their comprehensive services and customer-focused approach, with no significant areas for improvement mentioned."
     }
   },
   {
@@ -797,13 +871,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "http://www.linkedin.com/company/jivesmedia",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "100 Van Ness Ave, Suite 2213",
       "city": "San Francisco",
       "state": "CA",
       "country": "US",
       "postalCode": "94102",
-      "phone": "(650) 420-7455"
+      "phone": "(650) 420-7455",
+      "description": "Jives Media is an advertising agency specializing in SEO, PPC, and digital marketing services. Feedback from their clients is largely positive, with around 75% of reviews highlighting their effective project management and timely deliverables. However, a minority, about 12.5%, reported dissatisfaction due to misalignment with client goals and communication issues, indicating room for improvement in responsiveness and customization of strategies."
     }
   },
   {
@@ -825,13 +902,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/klientboost/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2787 Bristol Street",
       "city": "Costa Mesa",
       "state": "CA",
       "country": "US",
       "postalCode": "92626",
-      "phone": "(949) 220-1195"
+      "phone": "(949) 220-1195",
+      "description": "KlientBoost is a professional advertising agency specializing in Paid Media and Marketing strategies that drive lead generation and optimize conversion rates. With a client satisfaction rate where approximately 90% commend their communication and project management, KlientBoost excels in delivering on time and providing actionable insights. However, about 10% of reviews indicate areas for improvement, notably in contract flexibility and initial onboarding processes."
     }
   },
   {
@@ -851,108 +931,21 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/rankingsio",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2008 W. Main St., Suite C",
       "city": "Marion",
       "state": "IL",
       "country": "US",
       "postalCode": "62959",
-      "phone": "+1 6187021127"
-    }
-  },
-  {
-    "name": "Theory SF",
-    "website": "https://clutch.co/profile/theory-sf#reviews",
-    "services": [
-      "25% Advertising",
-      "35% Branding",
-      "10% Digital Strategy\n                                \n                                    \n                                        \n                                        +5 services",
-      "10% Logo",
-      "5% Broadcast Video",
-      "5% Market Research",
-      "5% Marketing Strategy",
-      "5% Social Media Marketing"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "25\n                        \n                            reviews",
-    "price": "$25,000+",
-    "companySize": "2 - 9",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/in/russellquinan",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "Hotspex Media",
-    "website": "https://clutch.co/profile/hotspex-media#reviews",
-    "services": [
-      "10% Advertising",
-      "60% Media Planning & Buying",
-      "10% Marketing Strategy\n                                \n                                    \n                                        \n                                        +2 services",
-      "10% Pay Per Click",
-      "10% Social Media Marketing"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "15\n                        \n                            reviews",
-    "price": "$50,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/hotspex-media-ads",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "Marketbridge",
-    "website": "https://clutch.co/profile/marketbridge-0#reviews",
-    "services": [
-      "20% Advertising",
-      "20% Digital Strategy",
-      "10% Branding\n                                \n                                    \n                                        \n                                        +5 services",
-      "10% Marketing Strategy",
-      "10% Media Planning & Buying",
-      "10% Public Relations",
-      "10% Social Media Marketing",
-      "10% Web Design"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "5.0",
-    "reviews": "11\n                        \n                            reviews",
-    "price": "$50,000+",
-    "companySize": "250 - 999",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/marketbridge/",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "+1 6187021127",
+      "description": "Rankings.io is an SEO agency specializing in enhancing online presence through SEO and PPC strategies for legal firms. With a 100% positive feedback rate, clients commend their responsiveness, effective communication, and commitment to client success. Approximately 85% of reviewers highlight Rankings.io's remarkable project management and timely delivery, while 75% emphasize their capability in transforming challenging SEO landscapes."
     }
   },
   {
     "name": "The Barber Shop Marketing",
-    "website": "https://clutch.co/profile/barber-shop-marketing#reviews",
+    "website": "https://clutch.co/profile/barber-shop-marketing?service_provided=Advertising#reviews",
     "services": [
       "20% Advertising",
       "20% Marketing Strategy",
@@ -971,40 +964,51 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/the-barber-shop-marketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "14135 Midway Rd., G270 Addison",
       "city": "Addison",
       "state": "TX",
       "country": "US",
       "postalCode": "75001",
-      "phone": "+1 (214) 217-7177"
+      "phone": "+1 (214) 217-7177",
+      "description": "The Barber Shop Marketing is a full-service advertising agency specializing in marketing, promotions, and media buying. With a track record of driving successful campaigns, they have earned overwhelmingly positive reviews. Clients commend their attentive service, with 100% noting their responsiveness and professionalism, and a notable 20-30% increase in ticket sales is reported for event marketing efforts."
     }
   },
   {
-    "name": "Onya",
-    "website": "https://clutch.co/profile/onya#reviews",
+    "name": "Out Origin",
+    "website": "https://clutch.co/profile/out-origin-0#reviews",
     "services": [
-      "20% Advertising",
-      "50% Social Media Marketing",
-      "20% Pay Per Click\n                                \n                                    \n                                        \n                                        +1 service",
-      "10% Content Marketing"
+      "15% Advertising",
+      "15% Web Development",
+      "10% Ecommerce Marketing\n                                \n                                    \n                                        \n                                        +6 services",
+      "10% Email Marketing",
+      "10% Mobile App Development",
+      "10% Pay Per Click",
+      "10% Search Engine Optimization",
+      "10% Social Media Marketing",
+      "10% Web Design"
     ],
     "clients": [],
     "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "22\n                        \n                            reviews",
-    "price": "$5,000+",
+    "rating": "4.8",
+    "reviews": "41\n                        \n                            reviews",
+    "price": "$1,000+",
     "companySize": "10 - 49",
-    "hrsRate": "$150 - $199",
+    "hrsRate": "N/A",
     "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/onyamark/",
+    "linkedin": "https://www.linkedin.com/company/outorigin",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
-      "street": "11650 Lantern Road Suite 137",
-      "city": "Fishers",
-      "state": "IN",
-      "country": "US",
-      "postalCode": "46038",
-      "phone": "(317) 451-6448"
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Out Origin is an advertising agency specializing in marketing and paid media services. They have received overwhelmingly positive feedback, with 100% of reviewers highlighting their precision, attention to detail, and transformative impact on clients' financial outlooks. Out Origin is praised for exceeding expectations in campaign management and optimization, achieving significant return on advertising spend improvements."
     }
   },
   {
@@ -1025,13 +1029,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/make-us-care",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "Make Us Care is an advertising agency specializing in branding, ad targeting, and campaign asset creation. The company receives consistently positive feedback, with clients praising their punctuality, communication, and innovative approach that fosters emotional connections with consumers. Approximately 100% of reviewers commend their timely delivery, while 67% appreciate their adaptability and creative vision. Some clients suggest adding more face-to-face interactions and enhanced access to creative talent."
     }
   },
   {
@@ -1056,40 +1063,46 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/intouch-mena/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "intouch mena is a digital communication agency specializing in social media management, digital media buying, and mobile and website development. Reviews highlight their exceptional adaptability and strategic creativity, with 100% positive feedback on their project management and commitment to client success. Notably, they consistently meet and exceed key performance indicators, ensuring brand adherence and effective communication strategies."
     }
   },
   {
-    "name": "Noetic Marketer",
-    "website": "https://clutch.co/profile/noetic-marketer#reviews",
+    "name": "Onya",
+    "website": "https://clutch.co/profile/onya#reviews",
     "services": [
-      "30% Advertising",
-      "30% Social Media Marketing",
+      "20% Advertising",
+      "50% Social Media Marketing",
       "20% Pay Per Click\n                                \n                                    \n                                        \n                                        +1 service",
-      "20% Search Engine Optimization"
+      "10% Content Marketing"
     ],
     "clients": [],
     "languages": "N/A",
-    "rating": "5.0",
-    "reviews": "6\n                        \n                            reviews",
+    "rating": "4.9",
+    "reviews": "22\n                        \n                            reviews",
     "price": "$5,000+",
-    "companySize": "2 - 9",
-    "hrsRate": "N/A",
+    "companySize": "10 - 49",
+    "hrsRate": "$150 - $199",
     "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/noetic-marketer/",
+    "linkedin": "https://www.linkedin.com/company/onyamark/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
+      "street": "11650 Lantern Road Suite 137",
+      "city": "Fishers",
+      "state": "IN",
+      "country": "US",
+      "postalCode": "46038",
+      "phone": "(317) 451-6448",
+      "description": "Onya is an advertising agency offering a range of services, including digital marketing, media buying, and social media ads. The feedback is overwhelmingly positive, with clients praising their flexibility, problem-solving skills, and excellent communication, as noted by over 90% of reviewers. Clients appreciate their ability to develop effective advertising strategies tailored to various industries, resulting in successful campaigns and increased engagement."
     }
   },
   {
@@ -1110,48 +1123,22 @@
     "clients": [],
     "languages": "N/A",
     "rating": "5.0",
-    "reviews": "34\n                        \n                            reviews",
+    "reviews": "35\n                        \n                            reviews",
     "price": "$1,000+",
     "companySize": "10 - 49",
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/caykmarketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2030 11 St SE #101",
       "city": "Calgary",
       "state": "AB",
       "country": "CA",
       "postalCode": "T2G 3G3",
-      "phone": "403-456-0072"
-    }
-  },
-  {
-    "name": "Let's Get Optimized",
-    "website": "https://clutch.co/profile/lets-get-optimized#reviews",
-    "services": [
-      "10% Advertising",
-      "35% Search Engine Optimization",
-      "20% Social Media Marketing\n                                \n                                    \n                                        \n                                        +3 services",
-      "15% Web Design",
-      "10% Content Marketing",
-      "10% Pay Per Click"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "5.0",
-    "reviews": "58\n                        \n                            reviews",
-    "price": "$1,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "$100 - $149",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/canadaseo/",
-    "location": {
-      "street": "80 Bloor St W #411",
-      "city": "Toronto",
-      "state": "ON",
-      "country": "CA",
-      "postalCode": "M5S 2V1",
-      "phone": "416-840-4411"
+      "phone": "403-456-0072",
+      "description": "CAYK Marketing Inc. is a versatile advertising agency specializing in marketing, paid media, and branding. Their reviews highlight a strong commitment to customer service, adaptability, and impressive project management with timely deliverables. The agency achieved significant outcomes, including a 260% increase in website visitors for one client, and consistently receives positive feedback, with no areas for improvement noted by clients."
     }
   },
   {
@@ -1176,38 +1163,110 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/corkboard-concepts/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "Corkboard Concepts is an advertising agency offering services such as PPC advertising, SEO, and website development. Reviewers commend their professionalism, accessibility, and genuine approach, with all feedback being positive. Approximately 50% of reviewers highlight their impressive customer service and project management, while 100% note their local focus and capability in generating traffic and leads."
     }
   },
   {
-    "name": "Digital Natives",
-    "website": "https://clutch.co/profile/digital-natives-0-0?service_provided=Advertising#reviews",
+    "name": "Noetic Marketer",
+    "website": "https://clutch.co/profile/noetic-marketer#reviews",
     "services": [
-      "90% Advertising",
-      "10% Search Engine Optimization"
+      "30% Advertising",
+      "30% Social Media Marketing",
+      "20% Pay Per Click\n                                \n                                    \n                                        \n                                        +1 service",
+      "20% Search Engine Optimization"
     ],
     "clients": [],
     "languages": "N/A",
     "rating": "5.0",
-    "reviews": "10\n                        \n                            reviews",
+    "reviews": "6\n                        \n                            reviews",
     "price": "$5,000+",
     "companySize": "2 - 9",
     "hrsRate": "N/A",
     "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/digital-natives-media",
+    "linkedin": "https://www.linkedin.com/company/noetic-marketer/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "Noetic Marketer is an advertising agency specializing in digital advertising services such as PPC campaigns, social media ads, and landing page optimization. Reviews highlight their expertise in paid media and marketing strategies, with a 100% positive feedback rate praising their project management, prompt communication, and ability to deliver high-quality leads. Clients consistently commend their alignment with company values and strategic approach."
+    }
+  },
+  {
+    "name": "Wildish & Co.",
+    "website": "https://clutch.co/profile/wildish-co#reviews",
+    "services": [
+      "10% Advertising",
+      "40% Branding",
+      "20% Graphic Design\n                                \n                                    \n                                        \n                                        +3 services",
+      "10% Marketing Strategy",
+      "10% Social Media Marketing",
+      "10% Web Design"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "41\n                        \n                            reviews",
+    "price": "$25,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/wildish-&amp;-co/about/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Wildish & Co. is an Advertising Agency specializing in brand strategy and visual identity refinement. The company is praised for its collaborative approach and effective project management, with 100% of reviewers highlighting their commitment to partnership and creative excellence. They are commended for transforming brand identity and achieving a strong visual presence, though some noted occasional discrepancies between creative direction and brand platform."
+    }
+  },
+  {
+    "name": "Let's Get Optimized",
+    "website": "https://clutch.co/profile/lets-get-optimized#reviews",
+    "services": [
+      "10% Advertising",
+      "35% Search Engine Optimization",
+      "20% Social Media Marketing\n                                \n                                    \n                                        \n                                        +3 services",
+      "15% Web Design",
+      "10% Content Marketing",
+      "10% Pay Per Click"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "5.0",
+    "reviews": "58\n                        \n                            reviews",
+    "price": "$1,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "$100 - $149",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/canadaseo/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "80 Bloor St W #411",
+      "city": "Toronto",
+      "state": "ON",
+      "country": "CA",
+      "postalCode": "M5S 2V1",
+      "phone": "416-840-4411",
+      "description": "Let's Get Optimized is an Advertising Agency providing services such as search engine marketing, Google Ads management, and SEO. Clients highlight their responsiveness and organizational skills, with 100% noting improved rankings and brand presence. Although they excel in communication and delivering results, 50% of reviewers suggest enhancements in technical areas, such as PPC conversion tracking."
     }
   },
   {
@@ -1229,13 +1288,83 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "175 Pearl St., Floors 1-3",
       "city": "Brooklyn",
       "state": "NY",
       "country": "US",
       "postalCode": "11201",
-      "phone": "(347) 619-3312"
+      "phone": "(347) 619-3312",
+      "description": "Lilo Social is a comprehensive advertising agency specializing in paid marketing and media buying across platforms like Facebook, Instagram, and Google, while also managing email marketing. Their clients highlight impressive results, such as a 200% ROI and significantly reduced customer acquisition costs. Reviewers consistently emphasize Lilo Social's strategic expertise and effective communication, with over 90% noting their responsiveness and proactive approach in delivering successful advertising services."
+    }
+  },
+  {
+    "name": "Theory SF",
+    "website": "https://clutch.co/profile/theory-sf#reviews",
+    "services": [
+      "25% Advertising",
+      "35% Branding",
+      "10% Digital Strategy\n                                \n                                    \n                                        \n                                        +5 services",
+      "10% Logo",
+      "5% Broadcast Video",
+      "5% Market Research",
+      "5% Marketing Strategy",
+      "5% Social Media Marketing"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "25\n                        \n                            reviews",
+    "price": "$25,000+",
+    "companySize": "2 - 9",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/in/russellquinan",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "Theory SF is an advertising agency specializing in branding, marketing, and advertising services. They have consistently received positive feedback, with over 80% of reviewers highlighting their creativity, strategic approach, and effective communication. Clients commend their ability to deliver eye-catching and entertaining brand strategies, ads, and marketing campaigns, often exceeding expectations in terms of quality and engagement."
+    }
+  },
+  {
+    "name": "WebFX",
+    "website": "https://clutch.co/profile/webfx#reviews",
+    "services": [
+      "5% Advertising",
+      "70% Search Engine Optimization",
+      "5% Content Marketing\n                                \n                                    \n                                        \n                                        +4 services",
+      "5% Email Marketing",
+      "5% Pay Per Click",
+      "5% Social Media Marketing",
+      "5% Web Development"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "397\n                        \n                            reviews",
+    "price": "$1,000+",
+    "companySize": "250 - 999",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/webfxinc/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "WebFX is a comprehensive digital marketing agency specializing in advertising services, paid media, and SEO, offering tailored solutions to a diverse clientele. Their reviews indicate high client satisfaction, with 100% of the feedback highlighting their project management and communication skills. The recurring themes include timely deliverables, effective strategy implementation, and notable improvements in online presence and lead generation, underscoring their role as a client-focused advertising agency."
     }
   },
   {
@@ -1256,13 +1385,16 @@
     "hrsRate": "$50 - $99",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/netrocket/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2 Am Krögel",
       "city": "Berlin",
       "state": "N/A",
       "country": "DE",
       "postalCode": "10179",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "Netrocket is an advertising agency specializing in digital marketing, including services like Google Ads, SEO, and social media marketing. With a 100% positive feedback rate, they are praised for their personal approach and strong project management skills. Notably, 50% of clients emphasize their ability to enhance online exposure effectively."
     }
   },
   {
@@ -1283,13 +1415,16 @@
     "hrsRate": "$50 - $99",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/in/ryanmduncan/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "3201 Cherry Ridge St Ste 328",
       "city": "San Antonio",
       "state": "TX",
       "country": "US",
       "postalCode": "78230",
-      "phone": "210-794-6710"
+      "phone": "210-794-6710",
+      "description": "Funnel Boost Media is an Advertising Agency specializing in website development, SEO, PPC, and marketing services. The company consistently receives positive feedback, with 100% of reviewers highlighting their excellent project management and customer service. Clients appreciate their attentiveness, professionalism, and quick response times, with no negative feedback reported. Funnel Boost Media is praised for aligning well with client needs and delivering high-quality results efficiently."
     }
   },
   {
@@ -1313,13 +1448,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/big-day-the-agency/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "4778 Rolando Boulevard",
       "city": "San Diego",
       "state": "CA",
       "country": "US",
       "postalCode": "92115",
-      "phone": "6194310472"
+      "phone": "6194310472",
+      "description": "Big Day the Agency is an Advertising Agency known for its expertise in brand positioning, creative development, and marketing strategies. They have garnered praise for their nimble approach, high-quality work, and strong creative capabilities, with 100% positive feedback across reviews. Clients appreciate their passion, adaptability, and ability to deliver impactful advertising services in both large and smaller-scale projects."
     }
   },
   {
@@ -1341,13 +1479,48 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/28631626",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "The Courtyard, 37 Sheen Road",
       "city": "London",
       "state": "N/A",
       "country": "GB",
       "postalCode": "TW9 1AJ",
-      "phone": "02080501921"
+      "phone": "02080501921",
+      "description": "Our Own Brand is a distinguished advertising agency specializing in branding, media buying, and advertising services. With 100% positive feedback, reviewers praise their impeccable project management, creative insight, and cultural intelligence. Their transparent pricing and collaborative approach make them a seamless extension of clients' teams, consistently enhancing visibility and digital engagement across diverse industries."
+    }
+  },
+  {
+    "name": "E29 Marketing",
+    "website": "https://clutch.co/profile/e29-marketing#reviews",
+    "services": [
+      "20% Advertising",
+      "25% Marketing Strategy",
+      "20% Digital Strategy\n                                \n                                    \n                                        \n                                        +3 services",
+      "15% Social Media Marketing",
+      "10% Branding",
+      "10% Media Planning & Buying"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "9\n                        \n                            reviews",
+    "price": "$50,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "$150 - $199",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/e29-marketing/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "55 La Goma street Ste 150",
+      "city": "Mill Valley",
+      "state": "CA",
+      "country": "US",
+      "postalCode": "94941",
+      "phone": "5107780955",
+      "description": "E29 Marketing is a comprehensive advertising agency offering services in media buying, brand strategy, influencer marketing, and digital media activation. The company receives consistently positive feedback, with clients praising their expertise, strategic leadership, and proactive project management. Approximately 100% of reviewers commend their effective communication and exceptional value, while some mention the need for better handling of logistical tasks."
     }
   },
   {
@@ -1355,12 +1528,13 @@
     "website": "https://clutch.co/profile/accelerated-digital-media#reviews",
     "services": [
       "10% Advertising",
-      "25% Pay Per Click",
-      "20% Media Planning & Buying\n                                \n                                    \n                                        \n                                        +4 services",
-      "15% Social Media Marketing",
+      "20% Media Planning & Buying",
+      "20% Pay Per Click\n                                \n                                    \n                                        \n                                        +5 services",
       "10% Demand Generation Marketing",
       "10% Digital Strategy",
-      "10% Ecommerce Marketing"
+      "10% Ecommerce Marketing",
+      "10% Search Engine Optimization",
+      "10% Social Media Marketing"
     ],
     "clients": [],
     "languages": "N/A",
@@ -1371,13 +1545,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/accelerateddigitalmedia/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "161 N Clark St",
       "city": "Chicago",
       "state": "IL",
       "country": "US",
       "postalCode": "60601",
-      "phone": "8727721301"
+      "phone": "8727721301",
+      "description": "Accelerated Digital Media is an advertising agency specializing in paid media and social media management. They receive consistently positive feedback, with clients noting their professionalism, timely delivery, and effective project management. Impressively, 100% of reviewers highlighted the company's ability to reduce costs and enhance growth, emphasizing their creative guidance and strong communication skills."
     }
   },
   {
@@ -1400,18 +1577,21 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/door-number-3/mycompany/?viewasmember=true",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "13785 Research Boulevard",
       "city": "Austin",
       "state": "TX",
       "country": "US",
       "postalCode": "78750",
-      "phone": "8324217045"
+      "phone": "8324217045",
+      "description": "Door No. 3 is an advertising agency specializing in brand positioning, ad development, and media strategy. The reviews highlight their creative talent and effective project management, with 100% of clients praising their responsiveness and ability to deliver on time. Their work is characterized as simple, clever, and memorable, leading to significant improvements in brand awareness and conversion rates for clients."
     }
   },
   {
     "name": "Spire Agency",
-    "website": "https://clutch.co/profile/spire-agency#reviews",
+    "website": "https://clutch.co/profile/spire-agency?service_provided=Advertising#reviews",
     "services": [
       "10% Advertising",
       "70% Branding",
@@ -1427,18 +1607,51 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/spire-agency/about/?viewAsMember=true",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "5055 Keller Springs Rd, Suite 510",
       "city": "Addison",
       "state": "TX",
       "country": "US",
       "postalCode": "75001",
-      "phone": "214-393-5200"
+      "phone": "214-393-5200",
+      "description": "Spire Agency is a distinguished advertising agency specializing in branding, advertising services, and promotions. With a 100% positive review rate, clients commend their professionalism, creativity, and ability to understand and meet business goals. Notably, 75% of reviewers highlight their exceptional project management skills and ability to deliver high-quality branding and marketing materials, making them a preferred partner for long-term engagements."
+    }
+  },
+  {
+    "name": "aNavigator",
+    "website": "https://clutch.co/profile/anavigator#reviews",
+    "services": [
+      "10% Advertising",
+      "70% Pay Per Click",
+      "10% Marketing Strategy\n                                \n                                    \n                                        \n                                        +1 service",
+      "10% Search Engine Optimization"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "35\n                        \n                            reviews",
+    "price": "$1,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "$50 - $99",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/anavigator/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "24 Prosecká",
+      "city": "Prague",
+      "state": "N/A",
+      "country": "CZ",
+      "postalCode": "180 00",
+      "phone": "+420775942979",
+      "description": "aNavigator is an Advertising Agency specializing in Amazon Advertising Services, including Paid Media and Marketing. Reviews indicate a 90% positive feedback, highlighting themes such as effective project management, flexibility, and performance-driven strategies. About 70% of reviewers commend their adaptability and transparency, while 60% emphasize the agency's impressive market insights and strategic communication."
     }
   },
   {
     "name": "Forge Worldwide",
-    "website": "https://clutch.co/profile/forge-worldwide?service_provided=Advertising#reviews",
+    "website": "https://clutch.co/profile/forge-worldwide#reviews",
     "services": [
       "20% Advertising",
       "25% Branding",
@@ -1456,18 +1669,21 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/143892/admin/feed/posts/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "142 Berkeley St., Suite 306",
       "city": "Boston",
       "state": "MA",
       "country": "US",
       "postalCode": "02116",
-      "phone": "+16172624800"
+      "phone": "+16172624800",
+      "description": "Forge Worldwide is an advertising agency specializing in branding, media buying, and advertising services. Across their reviews, Forge Worldwide is recognized for its creativity, strategic mindset, and strong project management, with 100% of reviewers noting their proactive and collaborative approach. Clients commend the agency's ability to deeply understand client missions and incorporate them seamlessly into campaigns, with 83% expressing satisfaction with their responsiveness and adaptability."
     }
   },
   {
     "name": "Mindshape",
-    "website": "https://clutch.co/profile/mindshape?service_provided=Advertising#reviews",
+    "website": "https://clutch.co/profile/mindshape#reviews",
     "services": [
       "25% Advertising",
       "25% Branding",
@@ -1483,13 +1699,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/mindshapeagency/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "1384 Cornwall Road ",
       "city": "Oakville",
       "state": "ON",
       "country": "CA",
       "postalCode": "L6J 7W5",
-      "phone": "905 339 3500"
+      "phone": "905 339 3500",
+      "description": "Mindshape is a boutique advertising agency specializing in media management, creative development, and digital marketing campaigns. The company has received overwhelmingly positive feedback, with clients praising their innovative approach, efficient project management, and ability to exceed campaign benchmarks. Approximately 100% of reviewers emphasize Mindshape's expertise in pushing creative boundaries and delivering exceptional advertising services across various media platforms."
     }
   },
   {
@@ -1513,13 +1732,46 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "http://www.linkedin.com/in/watsoncreative",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "1001 Water Avenue, Suite 440",
       "city": "Portland",
       "state": "OR",
       "country": "US",
       "postalCode": "97214",
-      "phone": "(800) 280-3057"
+      "phone": "(800) 280-3057",
+      "description": "Watson Creative is an advertising agency known for its adept handling of branding, marketing, and advertising services. The company consistently receives positive feedback for their professional project management, with 100% of reviewers appreciating their ability to deliver on time and within budget. Clients commend Watson Creative for their exceptional creativity and ability to align with company values, making them a trusted partner for comprehensive advertising solutions."
+    }
+  },
+  {
+    "name": "Graphos Product",
+    "website": "https://clutch.co/profile/graphos-product#reviews",
+    "services": [
+      "25% Advertising",
+      "30% Marketing Strategy",
+      "25% Branding\n                                \n                                    \n                                        \n                                        +1 service",
+      "20% Graphic Design"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "5.0",
+    "reviews": "7\n                        \n                            reviews",
+    "price": "$10,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "$150 - $199",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/3136162",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "385 3-11 Bellerose Drive",
+      "city": "St. Albert",
+      "state": "AB",
+      "country": "CA",
+      "postalCode": "T8N 5C9",
+      "phone": "833472 7467",
+      "description": "Graphos Product is an advertising agency specializing in branding, media buying, and marketing services. They have demonstrated a strong commitment to client satisfaction, with 100% positive feedback highlighting their impressive partnership approach and consistent branding efforts. Clients appreciate their caring philosophy and professional project management, indicating a high level of trust and collaboration."
     }
   },
   {
@@ -1542,13 +1794,16 @@
     "hrsRate": "0",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/grounds-for-promotion/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "1919 14th Street Ste 700",
       "city": "Boulder",
       "state": "CO",
       "country": "US",
       "postalCode": "80302",
-      "phone": "303-641-3204"
+      "phone": "303-641-3204",
+      "description": "Grounds for Promotion is an Advertising Agency specializing in Paid Media and Marketing services. With consistently high ratings, 100% of reviewers commend their project management skills and timely delivery, noting their ability to optimize digital strategies and enhance SEO. Clients praise their dedication to achieving measurable outcomes like increased conversions and lead generation, with no substantial areas for improvement mentioned."
     }
   },
   {
@@ -1575,40 +1830,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://linkedin.com/company/anderson-collaborative/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "4000 Ponce de Leon Blvd Suite 470",
       "city": "Miami",
       "state": "FL",
       "country": "US",
       "postalCode": "33146",
-      "phone": "305-777-0471"
-    }
-  },
-  {
-    "name": "Graphos Product",
-    "website": "https://clutch.co/profile/graphos-product#reviews",
-    "services": [
-      "25% Advertising",
-      "30% Marketing Strategy",
-      "25% Branding\n                                \n                                    \n                                        \n                                        +1 service",
-      "20% Graphic Design"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "5.0",
-    "reviews": "7\n                        \n                            reviews",
-    "price": "$10,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "$150 - $199",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/3136162",
-    "location": {
-      "street": "385 3-11 Bellerose Drive",
-      "city": "St. Albert",
-      "state": "AB",
-      "country": "CA",
-      "postalCode": "T8N 5C9",
-      "phone": "833472 7467"
+      "phone": "305-777-0471",
+      "description": "Anderson Collaborative™ is a comprehensive advertising agency specializing in paid media, digital marketing, media buying, and advertising services. The company is highly praised for its impressive data analysis, effective communication, and versatility in handling diverse projects. With a strong focus on maximizing return on ad spend, 100% of clients report positive outcomes, highlighting their strategic partnership and responsiveness in addressing client needs."
     }
   },
   {
@@ -1629,13 +1860,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/sociallyin/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "3423 Piedmont Road NE",
       "city": "Atlanta",
       "state": "GA",
       "country": "US",
       "postalCode": "30305",
-      "phone": "205-259-5308"
+      "phone": "205-259-5308",
+      "description": "Sociallyin is an advertising agency specializing in paid media and social media content strategies. The company excels in creating tailored advertising solutions and providing exceptional project management. With a 100% positive feedback rate, clients consistently commend their responsiveness, personalized attention, and impressive results, particularly in branding and paid marketing campaigns."
     }
   },
   {
@@ -1659,13 +1893,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/meanpug-digital-agency/about/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "124 9th Street Unit 254",
       "city": "Brooklyn",
       "state": "NY",
       "country": "US",
       "postalCode": "11215",
-      "phone": "(646) 461-4213"
+      "phone": "(646) 461-4213",
+      "description": "MeanPug Digital is an advertising agency specializing in paid media and web design services, particularly for law firms. Their client reviews highlight exceptional expertise in creating cutting-edge designs and implementing effective marketing strategies, with a 100% satisfaction rate noted in the feedback. Clients commend their professionalism, timely delivery, and ability to significantly increase leads and web traffic."
     }
   },
   {
@@ -1686,13 +1923,16 @@
     "hrsRate": "$150 - $199",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/volume-9-inc/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "1312 17th St #942",
       "city": "Denver",
       "state": "CO",
       "country": "US",
       "postalCode": "80202",
-      "phone": "303-955-5228"
+      "phone": "303-955-5228",
+      "description": "Volume Nine is a digital marketing agency specializing in advertising services, including SEO, social media management, organic content, and ad management. The company is praised for its responsiveness and effective project management, with 100% of reviewers highlighting increased conversions and enhanced digital presence. Clients recommend Volume Nine for building cohesive marketing strategies and maintaining strong client-agency relationships."
     }
   },
   {
@@ -1716,13 +1956,47 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/m3agencyuk/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "2 Chamberlain Square",
       "city": "Birmingham",
       "state": "N/A",
       "country": "GB",
       "postalCode": "B3 3AX",
-      "phone": "0333 321 1493"
+      "phone": "0333 321 1493",
+      "description": "M3.agency is a comprehensive digital marketing firm specializing in SEO, PPC, web design, and social media marketing. The company consistently receives positive feedback, with approximately 100% of reviewers praising their professionalism, timely delivery, and ability to boost brand performance and website traffic. Clients commend M3.agency's excellent communication and expertise, highlighting their seamless integration with in-house teams."
+    }
+  },
+  {
+    "name": "VSA Partners",
+    "website": "https://clutch.co/profile/vsa-partners?sort_by=date_desc#reviews",
+    "services": [
+      "20% Advertising",
+      "20% Branding",
+      "20% Digital Strategy\n                                \n                                    \n                                        \n                                        +2 services",
+      "20% Marketing Strategy",
+      "20% Web Design"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "4.9",
+    "reviews": "4\n                        \n                            reviews",
+    "price": "$25,000+",
+    "companySize": "50 - 249",
+    "hrsRate": "$200 - $300",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/vsa-partners/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
+    "location": {
+      "street": "Chicago Ave. ",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "US",
+      "postalCode": "60654",
+      "phone": "3124276413",
+      "description": "VSA Partners is an advertising agency specializing in brand storytelling and creative direct marketing. The overall feedback is positive, highlighting their strategic capabilities and alignment with company values. While 100% of reviewers appreciated their strategy team, some noted challenges with web design, though these were resolved."
     }
   },
   {
@@ -1743,104 +2017,16 @@
     "hrsRate": "$100 - $149",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/strikedigital",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "Yes",
     "location": {
       "street": "13 Adelaide Road",
       "city": "Dublin",
       "state": "N/A",
       "country": "IE",
       "postalCode": "D02 P950",
-      "phone": "+353876642033"
-    }
-  },
-  {
-    "name": "Direct Online Marketing",
-    "website": "https://clutch.co/profile/direct-online-marketing#reviews",
-    "services": [
-      "10% Advertising",
-      "25% Pay Per Click",
-      "25% Search Engine Optimization\n                                \n                                    \n                                        \n                                        +4 services",
-      "10% Conversion Optimization",
-      "10% Demand Generation Marketing",
-      "10% Social Media Marketing",
-      "10% Web Design"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "5.0",
-    "reviews": "22\n                        \n                            reviews",
-    "price": "$5,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "$150 - $199",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/direct-online-marketing",
-    "location": {
-      "street": "4117 Liberty Avenue",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "country": "US",
-      "postalCode": "15224",
-      "phone": "4127857671"
-    }
-  },
-  {
-    "name": "YouYaa",
-    "website": "https://clutch.co/profile/youyaa#reviews",
-    "services": [
-      "10% Advertising",
-      "10% Blockchain Marketing",
-      "10% Branding\n                                \n                                    \n                                        \n                                        +7 services",
-      "10% Content Marketing",
-      "10% Marketing Strategy",
-      "10% Mobile & App Marketing",
-      "10% Pay Per Click",
-      "10% Public Relations",
-      "10% Search Engine Optimization",
-      "10% Social Media Marketing"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "29\n                        \n                            reviews",
-    "price": "$5,000+",
-    "companySize": "2 - 9",
-    "hrsRate": "$50 - $99",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/youyaa/",
-    "location": {
-      "street": "DSO-IFZA, IFA Properties, Dubai Silicon Oasis, Dubai",
-      "city": "Dubai",
-      "state": "N/A",
-      "country": "AE",
-      "postalCode": "N/A",
-      "phone": "+971585550530"
-    }
-  },
-  {
-    "name": "Pound & Grain",
-    "website": "https://clutch.co/profile/pound-grain#reviews",
-    "services": [
-      "30% Advertising",
-      "25% Marketing Strategy",
-      "15% Branding\n                                \n                                    \n                                        \n                                        +2 services",
-      "15% Media Planning & Buying",
-      "15% Social Media Marketing"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "4.9",
-    "reviews": "5\n                        \n                            reviews",
-    "price": "$10,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "$150 - $199",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/pound-&-grain/",
-    "location": {
-      "street": "34 West 7th Avenue",
-      "city": "Vancouver",
-      "state": "BC",
-      "country": "CA",
-      "postalCode": "V5Y 1L6",
-      "phone": "604-757-3793"
+      "phone": "+353876642033",
+      "description": "Strike Digital is a proficient Advertising Agency specializing in Paid Media and digital marketing services, including Google and Meta ads management. Reviews indicate a high level of client satisfaction, with 100% positive feedback highlighting their expertise, proactive communication, and effective project management. A recurring theme across reviews is their ability to significantly increase return on ad spend, with some clients reporting a near doubling of their expected ROAS."
     }
   },
   {
@@ -1862,14 +2048,17 @@
     "companySize": "50 - 249",
     "hrsRate": "N/A",
     "email": "Not Found",
-    "linkedin": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/req/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -1891,13 +2080,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -1919,14 +2111,17 @@
     "companySize": "1,000 - 9,999",
     "hrsRate": "N/A",
     "email": "Not Found",
-    "linkedin": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -1948,13 +2143,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/smartsites/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -1976,13 +2174,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/trivium-group-llc",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2005,13 +2206,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/power-digital-marketing-inc-/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2034,13 +2238,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/savage-global-marketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2063,13 +2270,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/starfish-brand-experience-design/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2092,13 +2302,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/in/danielbrian/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2121,13 +2334,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2149,13 +2365,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "http://www.linkedin.com/company/jivesmedia",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2178,13 +2397,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/klientboost/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2206,13 +2428,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/rankingsio",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2235,13 +2460,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/the-barber-shop-marketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2264,13 +2492,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/onyamark/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2293,13 +2524,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/11810697",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2321,13 +2555,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/zerotrillion",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2350,13 +2587,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/caykmarketing",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2379,13 +2619,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/marketbridge/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2408,13 +2651,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/anchour",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2437,13 +2683,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2466,13 +2715,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2495,13 +2747,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/canadaseo/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2524,13 +2779,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2552,42 +2810,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/netrocket/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
-    }
-  },
-  {
-    "name": "Bear In The Hall",
-    "website": "https://clutch.co/profile/bear-hall",
-    "services": [
-      "17.4/20 Reviews",
-      "8.4/10 Clients & Experience",
-      "8.9/10 Market Presence",
-      "30% Advertising",
-      "40% Marketing",
-      "30% Other"
-    ],
-    "clients": [],
-    "languages": "N/A",
-    "rating": "N/A",
-    "reviews": "N/A",
-    "price": "$50,000+",
-    "companySize": "10 - 49",
-    "hrsRate": "N/A",
-    "email": "Not Found",
-    "linkedin": "https://www.linkedin.com/company/clutch-co",
-    "location": {
-      "street": "N/A",
-      "city": "N/A",
-      "state": "N/A",
-      "country": "N/A",
-      "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2610,13 +2842,48 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/dragon360/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
+    }
+  },
+  {
+    "name": "Bear In The Hall",
+    "website": "https://clutch.co/profile/bear-hall",
+    "services": [
+      "17.2/20 Reviews",
+      "8.4/10 Clients & Experience",
+      "8.9/10 Market Presence",
+      "30% Advertising",
+      "40% Marketing",
+      "30% Other"
+    ],
+    "clients": [],
+    "languages": "N/A",
+    "rating": "N/A",
+    "reviews": "N/A",
+    "price": "$50,000+",
+    "companySize": "10 - 49",
+    "hrsRate": "N/A",
+    "email": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
+    "location": {
+      "street": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "country": "N/A",
+      "postalCode": "N/A",
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2639,13 +2906,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/2739585/admin/",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2668,13 +2938,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   },
   {
@@ -2697,13 +2970,16 @@
     "hrsRate": "N/A",
     "email": "Not Found",
     "linkedin": "https://www.linkedin.com/company/clutch-co",
+    "ServicesProvided": "Yes",
+    "premier_Verified": "No",
     "location": {
       "street": "N/A",
       "city": "N/A",
       "state": "N/A",
       "country": "N/A",
       "postalCode": "N/A",
-      "phone": "N/A"
+      "phone": "N/A",
+      "description": "N/A"
     }
   }
 ]

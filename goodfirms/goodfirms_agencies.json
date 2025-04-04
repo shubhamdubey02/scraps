@@ -157,8 +157,8 @@
     ],
     "rating": "5.0",
     "reviewsCount": "15",
-    "reviewHighlight": "Their technological proficiency really pleased us.",
-    "reviewAuthor": "reviewed by: Ekundayo Deborah"
+    "reviewHighlight": "Utility is the most reliable firm in the industry when it comes to high-quality mobile development.",
+    "reviewAuthor": "reviewed by: Casey Huke, President & Co-Founder at Football Genius"
   },
   {
     "name": "Snotor",
@@ -166,7 +166,7 @@
     "website": "https://snotor.pro/mobile-app-development/?utm_source=GoodFirms&utm_medium=referral",
     "logo": "https://assets.goodfirms.co/services/medium/snotor.jpg",
     "tagline": "Delivering results. Efficiently and effectively",
-    "description": "Snotor provides a full range of custom software development services, with a focus on web development in FinTech and E-commerce industries. With 16 years of experience and 450+ projects delivered, we have already helped companies across industries conduct their digital shift.\n\nHeadquartered in Riga, Latvia, we are positioned perfectly to utilize ... read Snotor reviews & insights",
+    "description": "Snotor provides a full range of custom software development services, with a focus on mobile development in FinTech, Healthcare, Wellness, and E-commerce industries. With 16 years of experience and 450+ projects delivered, we have already helped companies across industries conduct their digital shift.\n\nHeadquartered in Riga, Latvia, we are positioned perfectly ... read Snotor reviews & insights",
     "hourlyRate": "$25 - $49/hr",
     "employees": "50 - 249",
     "founded": "2007",
@@ -212,7 +212,7 @@
     "website": "https://plavno.io/?utm_source=goodfirms&utm_medium=goodfirms&utm_campaign=goodfirms",
     "logo": "https://assets.goodfirms.co/services/medium/plavno.jpg",
     "tagline": "Maximize value with AI-driven solutions",
-    "description": "Plavno is a premier software development company that helpsbusinesses capture the opportunity of AI technology.\n\nFully-fledged teams of specialists cover each stage of product creation, from product management and analysis to design, development, testing, and ongoing support. Plavno AI team and solutions turn ordinary companies into remarkable successes.\n\nFind out the cost of developing ... read Plavno reviews & insights",
+    "description": "Plavno is a premier software development company that helps businesses capture the opportunity of AI technology.\n\nFully-fledged teams of specialists cover each stage of product creation, from product management and analysis to design, development, testing, and ongoing support. Plavno AI team and solutions turn ordinary companies into remarkable successes.\n\nFind out the cost of developing ... read Plavno reviews & insights",
     "hourlyRate": "$25 - $49/hr",
     "employees": "50 - 249",
     "founded": "2007",
@@ -823,29 +823,6 @@
     "reviewAuthor": "reviewed by: Georgi Nalbantov, Chief Scientific Officer at VECTOR Labs - From AI to Value"
   },
   {
-    "name": "IT Services India",
-    "profileUrl": "https://www.goodfirms.co/company/it-services-india",
-    "website": "https://www.itservicesindia.com/",
-    "logo": "https://assets.goodfirms.co/services/medium/it-services-india.jpg",
-    "tagline": "New Dimension To IT World",
-    "description": "As a founder, CEO, or CTO, you understand that technology isn't just a tool—it's a strategic driver of your business's future. Since 2010, IT Services India has been that strategic partner for businesses worldwide, transforming complex ideas into powerful, market-ready digital solutions. We’ve delivered projects across critical sectors like healthcare, ... read IT Services India reviews & insights",
-    "hourlyRate": "$25 - $49/hr",
-    "employees": "50 - 249",
-    "founded": "2010",
-    "verified": "Verified",
-    "location": "Ahmedabad, India",
-    "focusAreas": [
-      {
-        "percentage": "20%",
-        "category": "Software Development"
-      }
-    ],
-    "rating": "5.0",
-    "reviewsCount": "32",
-    "reviewHighlight": "Miracuves Solutions has performed different tasks. Some tasks were simple.",
-    "reviewAuthor": "reviewed by: Heather Dueitt, CMO at Global TekMed"
-  },
-  {
     "name": "A3Logics",
     "profileUrl": "https://www.goodfirms.co/company/a3logics",
     "website": "https://www.a3logics.com/?utm_source=goodfirm&utm_medium=re",
@@ -867,6 +844,29 @@
     "reviewsCount": "48",
     "reviewHighlight": "Outstanding Service",
     "reviewAuthor": "reviewed by: Bailey James, Marketing Specialist at Tenstreet, LLC"
+  },
+  {
+    "name": "IT Services India",
+    "profileUrl": "https://www.goodfirms.co/company/it-services-india",
+    "website": "https://www.itservicesindia.com/",
+    "logo": "https://assets.goodfirms.co/services/medium/it-services-india.jpg",
+    "tagline": "New Dimension To IT World",
+    "description": "As a founder, CEO, or CTO, you understand that technology isn't just a tool—it's a strategic driver of your business's future. Since 2010, IT Services India has been that strategic partner for businesses worldwide, transforming complex ideas into powerful, market-ready digital solutions. We’ve delivered projects across critical sectors like healthcare, ... read IT Services India reviews & insights",
+    "hourlyRate": "$25 - $49/hr",
+    "employees": "50 - 249",
+    "founded": "2010",
+    "verified": "Verified",
+    "location": "Ahmedabad, India",
+    "focusAreas": [
+      {
+        "percentage": "20%",
+        "category": "Software Development"
+      }
+    ],
+    "rating": "5.0",
+    "reviewsCount": "32",
+    "reviewHighlight": "Miracuves Solutions has performed different tasks. Some tasks were simple.",
+    "reviewAuthor": "reviewed by: Heather Dueitt, CMO at Global TekMed"
   },
   {
     "name": "Hiredeveloper.dev",
@@ -938,6 +938,29 @@
     "reviewAuthor": "reviewed by: Evgeniy Altynpara, CTO and Founder at Cleveroad"
   },
   {
+    "name": "AppMakers USA",
+    "profileUrl": "https://www.goodfirms.co/company/app-makers-la#reviews",
+    "website": "https://appmakersla.com/services/custom-software-development/?utm_source=GoodFirms&utm_medium=referral",
+    "logo": "https://assets.goodfirms.co/services/medium/212_5acd22971dbc0.png",
+    "tagline": "Leading Los Angeles Mobile App Developers",
+    "description": "Our award-winning firm of 30+ experts specializes in delivering beautiful apps on time and on budget. Our work ranges from wild startup ideas dreamt up by the likes of NFL’s Austin Ekeler, to complex, powerful enterprise systems built for rockstar companies like Los Angeles Apparel.\n\nOur main focus is cross-platform ... read AppMakers USA reviews & insights",
+    "hourlyRate": "$100 - $149/hr",
+    "employees": "10 - 49",
+    "founded": "2014",
+    "verified": "Verified",
+    "location": "Los Angeles, California",
+    "focusAreas": [
+      {
+        "percentage": "40%",
+        "category": "Software Development"
+      }
+    ],
+    "rating": "5.0",
+    "reviewsCount": "78",
+    "reviewHighlight": "Great",
+    "reviewAuthor": "reviewed by: Anonymous"
+  },
+  {
     "name": "Promatics Technologies",
     "profileUrl": "https://www.goodfirms.co/company/promatics-technologies#reviews",
     "website": "https://www.promaticsindia.com/?utm_source=GoodFirms&utm_medium=referral",
@@ -982,75 +1005,6 @@
     "reviewsCount": "118",
     "reviewHighlight": "AI-based predictive maintenance solution",
     "reviewAuthor": "reviewed by: Anonymous"
-  },
-  {
-    "name": "Lasting Dynamics",
-    "profileUrl": "https://www.goodfirms.co/company/lasting-dynamics",
-    "website": "https://www.lastingdynamics.com/",
-    "logo": "https://assets.goodfirms.co/services/medium/lasting-dynamics.png",
-    "tagline": "Quality Software Development",
-    "description": "Lasting Dynamics is an award-winning software house committed to providing quality software development services in the web, mobile, VR/XR, AI, and web3. We have more than 10 years of experience and work with companies from a wide range of industries in 30+ countries. Our effort has always been on high-quality ... read Lasting Dynamics reviews & insights",
-    "hourlyRate": "$25 - $49/hr",
-    "employees": "50 - 249",
-    "founded": "2015",
-    "verified": "Verified",
-    "location": "Las Palmas, Spain",
-    "focusAreas": [
-      {
-        "percentage": "10%",
-        "category": "Software Development"
-      }
-    ],
-    "rating": "5.0",
-    "reviewsCount": "20",
-    "reviewHighlight": "We are extremely satisfied with the expertise and professionalism of Lasting Dynamics' team, and we plan to collaborate on future projects.",
-    "reviewAuthor": "reviewed by: Flavio Vincenzi, CTO at GEMAD LTD"
-  },
-  {
-    "name": "AppMakers USA",
-    "profileUrl": "https://www.goodfirms.co/company/app-makers-la#reviews",
-    "website": "https://appmakersla.com/services/custom-software-development/?utm_source=GoodFirms&utm_medium=referral",
-    "logo": "https://assets.goodfirms.co/services/medium/212_5acd22971dbc0.png",
-    "tagline": "Leading Los Angeles Mobile App Developers",
-    "description": "Our award-winning firm of 30+ experts specializes in delivering beautiful apps on time and on budget. Our work ranges from wild startup ideas dreamt up by the likes of NFL’s Austin Ekeler, to complex, powerful enterprise systems built for rockstar companies like Los Angeles Apparel.\n\nOur main focus is cross-platform ... read AppMakers USA reviews & insights",
-    "hourlyRate": "$100 - $149/hr",
-    "employees": "10 - 49",
-    "founded": "2014",
-    "verified": "Verified",
-    "location": "Los Angeles, California",
-    "focusAreas": [
-      {
-        "percentage": "40%",
-        "category": "Software Development"
-      }
-    ],
-    "rating": "5.0",
-    "reviewsCount": "77",
-    "reviewHighlight": "Great",
-    "reviewAuthor": "reviewed by: Anonymous"
-  },
-  {
-    "name": "SoftPak Financial Systems, Inc",
-    "profileUrl": "https://www.goodfirms.co/company/softpak",
-    "website": "https://softpak.com/",
-    "logo": "https://assets.goodfirms.co/services/medium/softpak.png",
-    "tagline": "Visionary Leaders in Fintech",
-    "description": "SoftPak Financial Systems was founded in 1994 and specializes exclusively in enterprise software development, software integration and consultant placement for the financial sector. The company is headquartered in Wayland Massachusetts and has 100 employees worldwide, consisting of product and project managers, developers, QA experts. Our offshore development center, Matrix Systems, is ... read SoftPak Financial Systems, Inc reviews & insights",
-    "hourlyRate": "$25 - $49/hr",
-    "employees": "50 - 249",
-    "founded": "N/A",
-    "verified": "Verified",
-    "location": "Wayland, Massachusetts",
-    "focusAreas": [
-      {
-        "percentage": "20%",
-        "category": "Software Development"
-      }
-    ],
-    "rating": "5.0",
-    "reviewsCount": "19",
-    "reviewHighlight": "Softpak delivered a great compliance solution using AI driven fraud prevention and secure audits.",
-    "reviewAuthor": "reviewed by: Mohammad Bitar, Deputy CEO at Al Ansari Exchange"
   },
   {
     "name": "Probey Services",
@@ -1122,50 +1076,27 @@
     "reviewAuthor": "reviewed by: Dominic Feik, Founder & Chief Technology Officer at Seen Technology"
   },
   {
-    "name": "Brainerhub",
-    "profileUrl": "https://www.goodfirms.co/company/brainerhub",
-    "website": "https://www.brainerhub.com/",
-    "logo": "https://assets.goodfirms.co/services/medium/brainerhub.jpg",
-    "tagline": "Convert Idea Into Business",
-    "description": "Brainerhub is a team of innovators, web developers, software engineers, and tech enthusiasts who help businesses grow. We have a proven track record of success, and our clients include some of the biggest names in the industry: Kraftas, GrowMoney, Osign, Conserv and many more.\n\nWe are experts in full-stack development, ... read Brainerhub reviews & insights",
+    "name": "SoftPak Financial Systems, Inc",
+    "profileUrl": "https://www.goodfirms.co/company/softpak",
+    "website": "https://softpak.com/",
+    "logo": "https://assets.goodfirms.co/services/medium/softpak.png",
+    "tagline": "Visionary Leaders in Fintech",
+    "description": "SoftPak Financial Systems was founded in 1994 and specializes exclusively in enterprise software development, software integration and consultant placement for the financial sector. The company is headquartered in Wayland Massachusetts and has 100 employees worldwide, consisting of product and project managers, developers, QA experts. Our offshore development center, Matrix Systems, is ... read SoftPak Financial Systems, Inc reviews & insights",
     "hourlyRate": "$25 - $49/hr",
     "employees": "50 - 249",
-    "founded": "2017",
-    "verified": "Not Verified",
-    "location": "Ahmedabad, India",
-    "focusAreas": [
-      {
-        "percentage": "15%",
-        "category": "Software Development"
-      }
-    ],
-    "rating": "N/A",
-    "reviewsCount": "N/A",
-    "reviewHighlight": "N/A",
-    "reviewAuthor": "N/A"
-  },
-  {
-    "name": "ScalaCode",
-    "profileUrl": "https://www.goodfirms.co/company/scalacode",
-    "website": "https://www.scalacode.com/",
-    "logo": "https://assets.goodfirms.co/services/medium/scalacode.png",
-    "tagline": "We Code Scalable Software",
-    "description": "We help businesses solve the problem of local talent shortage in software development. We are an award-winning & top-tier software development company backed by over a decade of proven track record, global clientele and skilled software engineers.\n\nScalaCode is one of the prominent industry leaders in providing bespoke and dedicated ... read ScalaCode reviews & insights",
-    "hourlyRate": "$25 - $49/hr",
-    "employees": "50 - 249",
-    "founded": "2011",
+    "founded": "N/A",
     "verified": "Verified",
-    "location": "Noida, India",
+    "location": "Wayland, Massachusetts",
     "focusAreas": [
       {
-        "percentage": "10%",
+        "percentage": "20%",
         "category": "Software Development"
       }
     ],
     "rating": "5.0",
-    "reviewsCount": "32",
-    "reviewHighlight": "Scalacode delivered a seamless, efficient, and high-performing software solution with support.",
-    "reviewAuthor": "reviewed by: Ramy Badie, Founder at TeeTurtle"
+    "reviewsCount": "19",
+    "reviewHighlight": "Softpak delivered a great compliance solution using AI driven fraud prevention and secure audits.",
+    "reviewAuthor": "reviewed by: Mohammad Bitar, Deputy CEO at Al Ansari Exchange"
   },
   {
     "name": "Exatosoftware",
@@ -1189,6 +1120,75 @@
     "reviewsCount": "25",
     "reviewHighlight": "Exatosoftware brought innovation, empathy, and excellence, revolutionizing elderly care at C",
     "reviewAuthor": "reviewed by: Carole Devalla Launay, Business Units Manager I Health I Services at COLISEE"
+  },
+  {
+    "name": "Brainerhub",
+    "profileUrl": "https://www.goodfirms.co/company/brainerhub",
+    "website": "https://www.brainerhub.com/",
+    "logo": "https://assets.goodfirms.co/services/medium/brainerhub.jpg",
+    "tagline": "Convert Idea Into Business",
+    "description": "Brainerhub is a team of innovators, web developers, software engineers, and tech enthusiasts who help businesses grow. We have a proven track record of success, and our clients include some of the biggest names in the industry: Kraftas, GrowMoney, Osign, Conserv and many more.\n\nWe are experts in full-stack development, ... read Brainerhub reviews & insights",
+    "hourlyRate": "$25 - $49/hr",
+    "employees": "50 - 249",
+    "founded": "2017",
+    "verified": "Not Verified",
+    "location": "Ahmedabad, India",
+    "focusAreas": [
+      {
+        "percentage": "15%",
+        "category": "Software Development"
+      }
+    ],
+    "rating": "N/A",
+    "reviewsCount": "N/A",
+    "reviewHighlight": "N/A",
+    "reviewAuthor": "N/A"
+  },
+  {
+    "name": "Pharos Production Inc.",
+    "profileUrl": "https://www.goodfirms.co/company/pharos-production-inc",
+    "website": "https://pharosproduction.com/",
+    "logo": "https://assets.goodfirms.co/services/medium/pharos-production-inc.jpg",
+    "tagline": "Web3, blockchain, DeFi, NFT software development",
+    "description": "Pharos Production Inc. 🚀 Your Trusted Partner in Blockchain & Web3 Innovation | Established 2013 | Las Vegas 🇺🇸 | Development Hub in Kyiv 🇺🇦\n\nPharos Production Inc. is a leading-edge software development firm specializing in Blockchain, DeFi, and Web3 solutions for visionary startups. With a decade of expertise, we ... read Pharos Production Inc. reviews & insights",
+    "hourlyRate": "$25 - $49/hr",
+    "employees": "10 - 49",
+    "founded": "2013",
+    "verified": "Verified",
+    "location": "Las Vegas, Nevada",
+    "focusAreas": [
+      {
+        "percentage": "15%",
+        "category": "Software Development"
+      }
+    ],
+    "rating": "5.0",
+    "reviewsCount": "31",
+    "reviewHighlight": "Outstanding delivery! Pharos Production Exceed My Expectation",
+    "reviewAuthor": "reviewed by: Anonymous"
+  },
+  {
+    "name": "ScalaCode",
+    "profileUrl": "https://www.goodfirms.co/company/scalacode",
+    "website": "https://www.scalacode.com/",
+    "logo": "https://assets.goodfirms.co/services/medium/scalacode.png",
+    "tagline": "We Code Scalable Software",
+    "description": "We help businesses solve the problem of local talent shortage in software development. We are an award-winning & top-tier software development company backed by over a decade of proven track record, global clientele and skilled software engineers.\n\nScalaCode is one of the prominent industry leaders in providing bespoke and dedicated ... read ScalaCode reviews & insights",
+    "hourlyRate": "$25 - $49/hr",
+    "employees": "50 - 249",
+    "founded": "2011",
+    "verified": "Verified",
+    "location": "Noida, India",
+    "focusAreas": [
+      {
+        "percentage": "10%",
+        "category": "Software Development"
+      }
+    ],
+    "rating": "5.0",
+    "reviewsCount": "32",
+    "reviewHighlight": "Scalacode delivered a seamless, efficient, and high-performing software solution with support.",
+    "reviewAuthor": "reviewed by: Ramy Badie, Founder at TeeTurtle"
   },
   {
     "name": "Newwave Solutions JSC",
@@ -1260,26 +1260,26 @@
     "reviewAuthor": "reviewed by: James Anglikin, co-founder at Country Pure Foods"
   },
   {
-    "name": "Pharos Production Inc.",
-    "profileUrl": "https://www.goodfirms.co/company/pharos-production-inc",
-    "website": "https://pharosproduction.com/",
-    "logo": "https://assets.goodfirms.co/services/medium/pharos-production-inc.jpg",
-    "tagline": "Web3, blockchain, DeFi, NFT software development",
-    "description": "Pharos Production Inc. 🚀 Your Trusted Partner in Blockchain & Web3 Innovation | Established 2013 | Las Vegas 🇺🇸 | Development Hub in Kyiv 🇺🇦\n\nPharos Production Inc. is a leading-edge software development firm specializing in Blockchain, DeFi, and Web3 solutions for visionary startups. With a decade of expertise, we ... read Pharos Production Inc. reviews & insights",
+    "name": "Kyanon Digital",
+    "profileUrl": "https://www.goodfirms.co/company/kyanon-digital",
+    "website": "https://kyanon.digital/",
+    "logo": "https://assets.goodfirms.co/services/medium/kyanon-digital.jpg",
+    "tagline": "Making Digital Impact that Matters",
+    "description": "WE ARE KYANON DIGITAL, a One-Stop Digital Services House, marrying business brilliance with technology excellence. Founded in 2012, KYANON DIGITAL has over 10 years of experience in the industry. Our 300+ tech experts and professionals have served over 100+ clients, helping them achieve their digital goals. With the slogan: Digital Impact ... read Kyanon Digital reviews & insights",
     "hourlyRate": "$25 - $49/hr",
-    "employees": "10 - 49",
-    "founded": "2013",
+    "employees": "250 - 999",
+    "founded": "2012",
     "verified": "Verified",
-    "location": "Las Vegas, Nevada",
+    "location": "Ho Chi Minh City, Vietnam",
     "focusAreas": [
       {
-        "percentage": "15%",
+        "percentage": "20%",
         "category": "Software Development"
       }
     ],
     "rating": "5.0",
-    "reviewsCount": "31",
-    "reviewHighlight": "Outstanding delivery! Pharos Production Exceed My Expectation",
-    "reviewAuthor": "reviewed by: Anonymous"
+    "reviewsCount": "37",
+    "reviewHighlight": "We value Kyanon reactivity, technical proficiency in front-end and back-end development",
+    "reviewAuthor": "reviewed by: Szymon Sypniewicz, co-founder of Ramp Network at Ramp Network"
   }
 ]
