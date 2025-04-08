@@ -81,12 +81,17 @@ function log(type, msg) {
     log("info", "🔎 Extracting profiles...");
     const profiles = await extractSimplifiedProfiles(page);
 
-    if (!profiles || profiles.length === 0) {
-      log("error", "No profiles found. Possibly selector issue.");
+    // Deduplicate by profile_url
+    const uniqueProfiles = Array.from(
+      new Map(profiles.map((p) => [p.profile_url, p])).values()
+    );
+
+    if (!uniqueProfiles || uniqueProfiles.length === 0) {
+      log("error", "No unique profiles found.");
     } else {
-      log("success", `📦 Scraped ${profiles.length} profiles:`);
-      console.table(profiles);
-      fs.writeFileSync("results.json", JSON.stringify(profiles, null, 2));
+      log("success", `📦 Scraped ${uniqueProfiles.length} unique profiles:`);
+      console.table(uniqueProfiles);
+      fs.writeFileSync("results.json", JSON.stringify(uniqueProfiles, null, 2));
       log("success", `💾 Saved to results.json`);
     }
   } catch (error) {
@@ -207,11 +212,9 @@ async function extractSimplifiedProfiles(page) {
 
       const profile_url = anchorEl.href?.split("?")[0] || "N/A";
 
-      // First try getting name from image alt attribute
       const imgEl = anchorEl.querySelector("img");
       const altName = imgEl?.alt?.trim();
 
-      // Fallback to text span
       const nameEl = anchorEl.querySelector("span[aria-hidden='true']") || anchorEl.querySelector("span");
       const fallbackName = nameEl?.innerText?.trim();
 
@@ -238,4 +241,3 @@ async function extractSimplifiedProfiles(page) {
     return profiles;
   });
 }
-
