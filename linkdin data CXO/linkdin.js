@@ -205,26 +205,37 @@ async function extractSimplifiedProfiles(page) {
       const anchorEl = el.querySelector("a[href*='/in/']");
       if (!anchorEl) return;
 
-      const nameEl = anchorEl.querySelector("span[aria-hidden='true']") || anchorEl.querySelector("span");
-      const name = nameEl?.innerText?.trim() || "N/A";
       const profile_url = anchorEl.href?.split("?")[0] || "N/A";
+
+      // First try getting name from image alt attribute
+      const imgEl = anchorEl.querySelector("img");
+      const altName = imgEl?.alt?.trim();
+
+      // Fallback to text span
+      const nameEl = anchorEl.querySelector("span[aria-hidden='true']") || anchorEl.querySelector("span");
+      const fallbackName = nameEl?.innerText?.trim();
+
+      const profile_name = altName || fallbackName || "N/A";
 
       const titleEl =
         el.querySelector("div.t-black--light") ||
         el.querySelector("div.entity-result__primary-subtitle") ||
         el.querySelector("div.artdeco-entity-lockup__subtitle");
+
       const designation = titleEl?.innerText?.trim() || "N/A";
 
-      const lowerCaseInfo = `${name} ${designation}`.toLowerCase();
+      const lowerCaseInfo = `${profile_name} ${designation}`.toLowerCase();
+
       if (
         /ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director/.test(
           lowerCaseInfo
         )
       ) {
-        profiles.push({ name, profile_url, designation });
+        profiles.push({ profile_name, profile_url, designation });
       }
     });
 
     return profiles;
   });
 }
+
