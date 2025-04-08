@@ -50,6 +50,7 @@ function log(type, msg) {
     const page = await browser.newPage();
     await page.setUserAgent(config.userAgent);
     await page.setViewport({ width: 1366, height: 768 });
+
     await page.setDefaultNavigationTimeout(120000);
 
     let isLoggedIn = await tryLoginWithCookies(page, cookiesPath);
@@ -79,13 +80,13 @@ function log(type, msg) {
     await autoScroll(page, config.search.scrollCount, config.search.scrollDelay);
 
     log("info", "🔎 Extracting profiles...");
-    const profiles = (await extractSimplifiedProfiles(page)) || [];
+    const profiles = await extractSimplifiedProfiles(page);
 
-    if (!Array.isArray(profiles) || profiles.length === 0) {
+    if (!profiles || profiles.length === 0) {
       log("error", "No profiles found. Possibly selector issue.");
     } else {
       log("success", `📦 Scraped ${profiles.length} profiles:`);
-      console.table(profiles.slice(0, 10)); // preview top 10
+      console.table(profiles);
       const outputPath = "results.json";
       fs.writeFileSync(outputPath, JSON.stringify(profiles, null, 2));
       log("success", `💾 Saved to ${outputPath}`);
@@ -192,33 +193,25 @@ async function saveCookies(page) {
   log("info", "💾 Cookies saved for future use.");
 }
 
-async function extractSimplifiedProfiles(page)
- {
+async function extractSimplifiedProfiles(page) {
   return await page.evaluate(() => {
-    const elements = document.querySelectorAll(".org-people-profile-card__profile-info");
-    return Array.from(elements)
+    const profileCards = document.querySelectorAll('[class*="org-people-profile-card"]');
+
+    return Array.from(profileCards)
       .map((el) => {
         const nameEl = el.querySelector("a");
-        const titleEl = el.querySelector("div.t-black--light");
+        const titleEl = el.querySelector("div.t-black--light, div.entity-result__primary-subtitle");
+
         const name = nameEl?.innerText?.trim() || "N/A";
         const profile_url = nameEl?.href?.split("?")[0] || "N/A";
         const designation = titleEl?.innerText?.trim() || "N/A";
 
-        return {
-          name,
-          profile_url,
-          designation,
-        };
+        return { name, profile_url, designation };
       })
-      .filter((profile) =>
-        /(ceo|cxo|coo|cto|cfo|founder|partner|vp|president)/i.test(profile.designation)
-      );
+      .filter((profile) => {
+        const combinedText = `${profile.name} ${profile.designation} ${profile.profile_url}`.toLowerCase();
+        return /(ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director)/i.test(combinedText);
+      });
   });
 }
-
-
-
-
-
-
 
