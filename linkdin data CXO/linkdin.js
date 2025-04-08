@@ -5,14 +5,14 @@ puppeteer.use(StealthPlugin());
 
 const config = {
   credentials: {
-    email: "s32064968@gmail.com",
+    email: "r40099827@gmail.com",
     password: "J9!vLm@2qZ",
   },
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   search: {
     company: "Algofy",
-    keyword: "CEO, Managing Partner, Founders",
+    keyword: "CEO, Managing Partner, Founders,CXO",
     scrollCount: 5,
     scrollDelay: 500,
   },
@@ -200,10 +200,10 @@ async function saveCookies(page) {
 }
 
 async function extractSimplifiedProfiles(page) {
-  await page.waitForSelector('[class*="org-people-profile-card"]', { timeout: 10000 }).catch(() => {});
+  await page.waitForSelector('[class*="org-people-profile-card__card-spacing"]', { timeout: 10000 }).catch(() => {});
 
   return await page.evaluate(() => {
-    const profileCards = document.querySelectorAll('[class*="org-people-profile-card"]');
+    const profileCards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"]');
     const profiles = [];
 
     profileCards.forEach((el) => {
