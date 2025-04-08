@@ -11,9 +11,9 @@ const config = {
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   search: {
-    company: "Algofy",
+    company: "accenture",
     keyword: "CEO, Managing Partner, Founders,CXO",
-    scrollCount: 5,
+    scrollCount: 50,
     scrollDelay: 500,
   },
 };
@@ -200,44 +200,48 @@ async function saveCookies(page) {
 }
 
 async function extractSimplifiedProfiles(page) {
-  await page.waitForSelector('[class*="org-people-profile-card__card-spacing"]', { timeout: 10000 }).catch(() => {});
+  const profiles = await page.evaluate(() => {
+    const cards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"], .artdeco-entity-lockup');
+    const seen = new Set();
+    const results = [];
 
-  return await page.evaluate(() => {
-    const profileCards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"]');
-    const profiles = [];
+    cards.forEach((card) => {
+      const anchor = card.querySelector("a[href*='/in/']");
+      const profile_url = anchor ? anchor.href.split("?")[0] : null;
+      if (!profile_url || seen.has(profile_url)) return;
+      seen.add(profile_url);
 
-    profileCards.forEach((el) => {
-      const anchorEl = el.querySelector("a[href*='/in/']");
-      if (!anchorEl) return;
+      const img = card.querySelector("img");
+      const nameFromAlt = img?.alt?.trim();
+      const spanName = card.querySelector("span[aria-hidden='true'], span")?.innerText?.trim();
+      let profile_name = nameFromAlt || spanName || "N/A";
+      profile_name = profile_name.replace(/LinkedIn Member/i, "").trim();
 
-      const profile_url = anchorEl.href?.split("?")[0] || "N/A";
+      // Extract designation more precisely
+      const subtitleEl = card.querySelector(
+        ".org-people-profile-card__profile-title, .artdeco-entity-lockup__subtitle, .entity-result__primary-subtitle, .t-black--light"
+      );
+      let designation = subtitleEl?.innerText?.trim() || "N/A";
 
-      const imgEl = anchorEl.querySelector("img");
-      const altName = imgEl?.alt?.trim();
-
-      const nameEl = anchorEl.querySelector("span[aria-hidden='true']") || anchorEl.querySelector("span");
-      const fallbackName = nameEl?.innerText?.trim();
-
-      const profile_name = altName || fallbackName || "N/A";
-
-      const titleEl =
-        el.querySelector("div.t-black--light") ||
-        el.querySelector("div.entity-result__primary-subtitle") ||
-        el.querySelector("div.artdeco-entity-lockup__subtitle");
-
-      const designation = titleEl?.innerText?.trim() || "N/A";
-
-      const lowerCaseInfo = `${profile_name} ${designation}`.toLowerCase();
-
+      // Basic CXO-level filtering
+      const lower = `${profile_name} ${designation}`.toLowerCase();
       if (
-        /ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director/.test(
-          lowerCaseInfo
-        )
+        /(ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing|chair|executive|chief)/.test(lower)
       ) {
-        profiles.push({ profile_name, profile_url, designation });
+        results.push({
+          profile_name,
+          profile_url,
+          designation,
+        });
       }
     });
 
-    return profiles;
+    return results;
   });
+
+  return profiles;
 }
+
+
+
+
