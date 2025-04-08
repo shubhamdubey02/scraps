@@ -1,5 +1,7 @@
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-extra");
 const fs = require("fs");
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+puppeteer.use(StealthPlugin());
 
 const config = {
   credentials: {
@@ -9,6 +11,7 @@ const config = {
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   search: {
+    company: "Algofy",
     keyword: "CEO, Managing Partner, Founders",
     scrollCount: 5,
     scrollDelay: 500,
@@ -45,12 +48,11 @@ function log(type, msg) {
     browser = await puppeteer.launch({
       headless: false,
       args: ["--start-maximized"],
+      defaultViewport: null,
     });
 
     const page = await browser.newPage();
     await page.setUserAgent(config.userAgent);
-    await page.setViewport({ width: 1366, height: 768 });
-
     await page.setDefaultNavigationTimeout(120000);
 
     let isLoggedIn = await tryLoginWithCookies(page, cookiesPath);
@@ -68,13 +70,10 @@ function log(type, msg) {
       return;
     }
 
-    const searchUrl = `https://www.linkedin.com/company/Algofy/people/?keywords=${encodeURIComponent(
-      config.search.keyword
-    )}`;
-    await page.goto(searchUrl, {
-      waitUntil: "domcontentloaded",
-      timeout: 120000,
-    });
+    const searchUrl = `https://www.linkedin.com/company/${config.search.company}/people/?keywords=${encodeURIComponent(config.search.keyword)}`;
+    
+    log("info", `🔗 Navigating to ${searchUrl}`);
+    await safeGoto(page, searchUrl);
 
     log("info", "📜 Scrolling for profiles...");
     await autoScroll(page, config.search.scrollCount, config.search.scrollDelay);
@@ -87,9 +86,8 @@ function log(type, msg) {
     } else {
       log("success", `📦 Scraped ${profiles.length} profiles:`);
       console.table(profiles);
-      const outputPath = "results.json";
-      fs.writeFileSync(outputPath, JSON.stringify(profiles, null, 2));
-      log("success", `💾 Saved to ${outputPath}`);
+      fs.writeFileSync("results.json", JSON.stringify(profiles, null, 2));
+      log("success", `💾 Saved to results.json`);
     }
   } catch (error) {
     log("error", `💥 Script crashed: ${error.message}`);
@@ -98,15 +96,25 @@ function log(type, msg) {
   }
 })();
 
+async function safeGoto(page, url) {
+  try {
+    await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
+  } catch (err) {
+    log("error", "⚠️ Page failed to load. Retrying...");
+    await delay(3000);
+    await page.goto(url, { waitUntil: "load", timeout: 60000 }).catch(() => {});
+  }
+}
+
 async function tryLoginWithCookies(page, cookiesPath) {
   if (!fs.existsSync(cookiesPath)) return false;
 
   const cookies = JSON.parse(fs.readFileSync(cookiesPath, "utf8"));
   await page.setCookie(...cookies);
-  await page.goto("https://www.linkedin.com/feed", {
-    waitUntil: "domcontentloaded",
-    timeout: 120000,
-  });
+  await safeGoto(page, "https://www.linkedin.com/feed");
 
   if (await isLoggedIn(page)) {
     log("success", "✅ Logged in using saved cookies!");
@@ -120,10 +128,7 @@ async function tryLoginWithCookies(page, cookiesPath) {
 async function loginWithCredentials(page) {
   try {
     log("info", "🔐 Attempting login with credentials...");
-    await page.goto("https://www.linkedin.com/login", {
-      waitUntil: "domcontentloaded",
-      timeout: 120000,
-    });
+    await safeGoto(page, "https://www.linkedin.com/login");
 
     await page.type("#username", config.credentials.email, { delay: 50 });
     await delay(300);
@@ -131,7 +136,7 @@ async function loginWithCredentials(page) {
 
     await Promise.all([
       page.click('button[type="submit"]'),
-      page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 120000 }),
+      page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 60000 }),
     ]);
 
     if (await page.$("div[role='dialog'], #captcha-challenge")) {
@@ -152,17 +157,13 @@ async function loginWithCredentials(page) {
 
 async function loginManually(page) {
   log("info", "🔐 Manual login required. Please complete login in browser...");
-  await page.goto("https://www.linkedin.com/login", {
-    waitUntil: "domcontentloaded",
-    timeout: 120000,
-  });
+  await safeGoto(page, "https://www.linkedin.com/login");
 
   const maxWait = 180;
   for (let i = 0; i < maxWait; i++) {
-    const url = page.url();
     const meLink = await page.$('a[href*="/me/"]');
     const profileIcon = await page.$('img.global-nav__me-photo');
-    const isFeed = url.includes("/feed");
+    const isFeed = page.url().includes("/feed");
 
     if (isFeed || meLink || profileIcon) {
       log("success", "\n✅ Manual login successful!");
@@ -194,26 +195,36 @@ async function saveCookies(page) {
 }
 
 async function extractSimplifiedProfiles(page) {
+  await page.waitForSelector('[class*="org-people-profile-card"]', { timeout: 10000 }).catch(() => {});
+
   return await page.evaluate(() => {
     const profileCards = document.querySelectorAll('[class*="org-people-profile-card"]');
+    const profiles = [];
 
-    return Array.from(profileCards)
-      .map((el) => {
-        const anchorEl = el.querySelector("a[href*='/in/']");
-        const nameSpan = anchorEl?.querySelector("span") || anchorEl;
-        const titleEl = el.querySelector("div.t-black--light, div.entity-result__primary-subtitle");
+    profileCards.forEach((el) => {
+      const anchorEl = el.querySelector("a[href*='/in/']");
+      if (!anchorEl) return;
 
-        const name = nameSpan?.innerText?.trim() || "N/A";
-        const profile_url = anchorEl?.href?.split("?")[0] || "N/A";
-        const designation = titleEl?.innerText?.trim() || "N/A";
+      const nameEl = anchorEl.querySelector("span[aria-hidden='true']") || anchorEl.querySelector("span");
+      const name = nameEl?.innerText?.trim() || "N/A";
+      const profile_url = anchorEl.href?.split("?")[0] || "N/A";
 
-        return { name, profile_url, designation };
-      })
-      .filter((profile) => {
-        const combinedText = `${profile.name} ${profile.designation} ${profile.profile_url}`.toLowerCase();
-        return /(ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director)/.test(combinedText);
-      });
+      const titleEl =
+        el.querySelector("div.t-black--light") ||
+        el.querySelector("div.entity-result__primary-subtitle") ||
+        el.querySelector("div.artdeco-entity-lockup__subtitle");
+      const designation = titleEl?.innerText?.trim() || "N/A";
+
+      const lowerCaseInfo = `${name} ${designation}`.toLowerCase();
+      if (
+        /ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director/.test(
+          lowerCaseInfo
+        )
+      ) {
+        profiles.push({ name, profile_url, designation });
+      }
+    });
+
+    return profiles;
   });
 }
-
-
