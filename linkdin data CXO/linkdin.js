@@ -9,7 +9,7 @@ const config = {
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   search: {
-    keyword: "CXO, Managing Partner, Founders",
+    keyword: "CEO, Managing Partner, Founders",
     scrollCount: 5,
     scrollDelay: 500,
   },
@@ -68,7 +68,7 @@ function log(type, msg) {
       return;
     }
 
-    const searchUrl = `https://www.linkedin.com/company/accenture/people/?keywords=${encodeURIComponent(
+    const searchUrl = `https://www.linkedin.com/company/Algofy/people/?keywords=${encodeURIComponent(
       config.search.keyword
     )}`;
     await page.goto(searchUrl, {
@@ -199,19 +199,21 @@ async function extractSimplifiedProfiles(page) {
 
     return Array.from(profileCards)
       .map((el) => {
-        const nameEl = el.querySelector("a");
+        const anchorEl = el.querySelector("a[href*='/in/']");
+        const nameSpan = anchorEl?.querySelector("span") || anchorEl;
         const titleEl = el.querySelector("div.t-black--light, div.entity-result__primary-subtitle");
 
-        const name = nameEl?.innerText?.trim() || "N/A";
-        const profile_url = nameEl?.href?.split("?")[0] || "N/A";
+        const name = nameSpan?.innerText?.trim() || "N/A";
+        const profile_url = anchorEl?.href?.split("?")[0] || "N/A";
         const designation = titleEl?.innerText?.trim() || "N/A";
 
         return { name, profile_url, designation };
       })
       .filter((profile) => {
         const combinedText = `${profile.name} ${profile.designation} ${profile.profile_url}`.toLowerCase();
-        return /(ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director)/i.test(combinedText);
+        return /(ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing director|executive director)/.test(combinedText);
       });
   });
 }
+
 
