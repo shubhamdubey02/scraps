@@ -11,7 +11,7 @@ const config = {
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   search: {
-    company: "amazon",
+    company: "wipro",
     keyword: "CEO, Managing Partner, Founders,CXO",
     scrollCount: 50,
     scrollDelay: 500,
@@ -22,12 +22,40 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function autoScroll(page, count = 5, delayTime = 500) {
+async function autoScroll(page, count = 10, delayTime = 1000) {
   for (let i = 0; i < count; i++) {
     await page.evaluate(() => window.scrollBy(0, window.innerHeight));
     await delay(delayTime);
+
+    try {
+      const button = await page.$(
+        'button.artdeco-button--secondary.scaffold-finite-scroll__load-button'
+      );
+
+      if (button) {
+        const isDisabled = await page.evaluate((btn) => btn.disabled, button);
+        const isVisible = await page.evaluate(
+          (btn) => !!(btn.offsetParent !== null),
+          button
+        );
+
+        if (!isDisabled && isVisible) {
+          await button.click();
+          console.log("🟢 Clicked 'Show more results' button.");
+          await delay(1000);
+        } else {
+          console.log("⛔ Button is disabled or not visible.");
+        }
+      } else {
+        console.log("⚠️ 'Show more results' button not found.");
+      }
+    } catch (err) {
+      console.log("❌ Error during button click:", err.message);
+    }
   }
 }
+
+
 
 function log(type, msg) {
   const colors = {
