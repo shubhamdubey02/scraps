@@ -1,0 +1,138 @@
+{
+  "_id": "",
+  "platform": "",
+  "type": "individual / agency",
+  "name": "",
+  "username": "",
+  "profileUrl": "",
+  "avatar": "",
+  "logo": "",
+  "tagline": "",
+  "bio": "",
+  "description": "",
+  "availableForWork": false,
+  "isPro": false,
+  "skills": [],
+  "focusAreas": [
+    {
+      "percentage": 0,
+      "category": ""
+    }
+  ],
+  "languages": "",
+  "rate": [
+    {
+      "type": "hourly",
+      "value": "$50 - $99/hr"
+    },
+    {
+      "type": "fixed",
+      "value": "From $5,000/project"
+    }
+  ],
+  "services": [
+    {
+      "name": "",
+      "budget": "",
+      "desc": "",
+      "time": "",
+      "note": ""
+    }
+  ],
+  "servicesAvailable": "",
+  "responseTime": "",
+  "demographics": {
+    "country": "",
+    "region": "",
+    "language": "",
+    "timezone": ""
+  },
+  "location": "",
+  "locationDetails": {
+    "street": "",
+    "city": "",
+    "state": "",
+    "country": "",
+    "postalCode": "",
+    "phone": ""
+  },
+  "contact": {
+    "email": "",
+    "website": "",
+    "linkedin": {
+      "company": "",
+      "founder": ""
+    },
+    "socialLinks": [
+      {
+        "label": "",
+        "url": ""
+      }
+    ],
+    "additionalLinks": [
+      {
+        "label": "",
+        "url": ""
+      }
+    ]
+  },
+  "leadership": {
+    "founders": [],
+    "cxo": [],
+    "managingPartners": []
+  },
+  "engagement": {
+    "followers": 0,
+    "following": 0,
+    "likes": 0,
+    "views": 0,
+    "appreciations": 0,
+    "projectsCompleted": 0
+  },
+  "shots": [
+    {
+      "id": "",
+      "name": "",
+      "link": "",
+      "images": [
+        ""
+      ],
+      "text": "",
+      "domain": "",
+      "engagement": {
+        "views": 0,
+        "saves": 0,
+        "likes": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "url": "",
+      "likes": 0,
+      "views": 0
+    }
+  ],
+  "work": [
+    {
+      "name": "",
+      "creater_name": "",
+      "likes": 0,
+      "views": 0,
+      "url": ""
+    }
+  ],
+  "companySize": "",
+  "founded": "",
+  "verified": false,
+  "premierVerified": false,
+  "clients": [],
+  "rating": "",
+  "reviewsCount": "",
+  "reviewHighlight": "",
+  "reviewAuthor": "",
+  "badge": "",
+  "provides_development": true
+}

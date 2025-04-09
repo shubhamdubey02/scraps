@@ -26,6 +26,26 @@
       "23",
       "Following",
       "6"
+    ],
+    "work": [
+      {
+        "name": "",
+        "creater_name": "",
+        "likes": "",
+        "views": "",
+        "url": ""
+      }
+    ],
+    "services":[
+      {
+        "name":"",
+        "buget":[
+
+        ],
+        "desc":"",
+        "time":"",
+        "note":"" 
+      }
     ]
   },
   {
@@ -79,12 +99,32 @@
     "projects": [
       "Project Views",
       "8,084",
-      "Appreciations",
+      "Appre  ciations",
       "171",
       "Followers",
       "101",
       "Following",
       "547"
+    ],
+    "work": [
+      {
+        "name": "",
+        "creater_name": "",
+        "likes": "",
+        "views": "",
+        "url": ""
+      }
+    ],
+    "services":[
+      {
+        "name":"",
+        "buget":[
+
+        ],
+        "desc":"",
+        "time":"",
+        "note":"" 
+      }
     ]
   },
   {
