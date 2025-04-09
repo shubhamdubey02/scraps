@@ -11,7 +11,7 @@ const config = {
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   search: {
-    company: "wipro",
+    company: "fireart-ltd-",
     keyword: "CEO, Managing Partner, Founders,CXO",
     scrollCount: 50,
     scrollDelay: 500,
@@ -22,8 +22,19 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function log(type, msg) {
+  const colors = {
+    info: "\x1b[34m",
+    success: "\x1b[32m",
+    error: "\x1b[31m",
+  };
+  const reset = "\x1b[0m";
+  console.log(`${colors[type] || ""}${msg}${reset}`);
+}
+
 async function autoScroll(page, count = 10, delayTime = 1000) {
   for (let i = 0; i < count; i++) {
+    log("info", `🌀 Scrolling iteration ${i + 1}/${count}`);
     await page.evaluate(() => window.scrollBy(0, window.innerHeight));
     await delay(delayTime);
 
@@ -40,31 +51,19 @@ async function autoScroll(page, count = 10, delayTime = 1000) {
         );
 
         if (!isDisabled && isVisible) {
+          log("info", "🟢 Clicking 'Show more results' button.");
           await button.click();
-          console.log("🟢 Clicked 'Show more results' button.");
           await delay(1000);
         } else {
-          console.log("⛔ Button is disabled or not visible.");
+          log("info", "⛔ Button is disabled or not visible.");
         }
       } else {
-        console.log("⚠️ 'Show more results' button not found.");
+        log("info", "⚠️ 'Show more results' button not found.");
       }
     } catch (err) {
-      console.log("❌ Error during button click:", err.message);
+      log("error", `❌ Error during button click: ${err.message}`);
     }
   }
-}
-
-
-
-function log(type, msg) {
-  const colors = {
-    info: "\x1b[34m",
-    success: "\x1b[32m",
-    error: "\x1b[31m",
-  };
-  const reset = "\x1b[0m";
-  console.log(`${colors[type] || ""}${msg}${reset}`);
 }
 
 (async () => {
@@ -84,22 +83,14 @@ function log(type, msg) {
     await page.setDefaultNavigationTimeout(120000);
 
     let isLoggedIn = await tryLoginWithCookies(page, cookiesPath);
-
-    if (!isLoggedIn) {
-      isLoggedIn = await loginWithCredentials(page);
-    }
-
-    if (!isLoggedIn) {
-      isLoggedIn = await loginManually(page);
-    }
-
+    if (!isLoggedIn) isLoggedIn = await loginWithCredentials(page);
+    if (!isLoggedIn) isLoggedIn = await loginManually(page);
     if (!isLoggedIn) {
       log("error", "❌ Could not log in. Exiting script.");
       return;
     }
 
     const searchUrl = `https://www.linkedin.com/company/${config.search.company}/people/?keywords=${encodeURIComponent(config.search.keyword)}`;
-    
     log("info", `🔗 Navigating to ${searchUrl}`);
     await safeGoto(page, searchUrl);
 
@@ -109,7 +100,6 @@ function log(type, msg) {
     log("info", "🔎 Extracting profiles...");
     const profiles = await extractSimplifiedProfiles(page);
 
-    // Deduplicate by profile_url
     const uniqueProfiles = Array.from(
       new Map(profiles.map((p) => [p.profile_url, p])).values()
     );
@@ -119,8 +109,11 @@ function log(type, msg) {
     } else {
       log("success", `📦 Scraped ${uniqueProfiles.length} unique profiles:`);
       console.table(uniqueProfiles);
-      fs.writeFileSync("results.json", JSON.stringify(uniqueProfiles, null, 2));
-      log("success", `💾 Saved to results.json`);
+      fs.writeFileSync(
+        config.search.company + "_results.json",
+        JSON.stringify(uniqueProfiles, null, 2)
+      );
+      log("success", `💾 Saved to ${config.search.company}_results.json`);
     }
   } catch (error) {
     log("error", `💥 Script crashed: ${error.message}`);
@@ -131,6 +124,7 @@ function log(type, msg) {
 
 async function safeGoto(page, url) {
   try {
+    log("info", `🌍 Going to ${url}`);
     await page.goto(url, {
       waitUntil: "domcontentloaded",
       timeout: 60000,
@@ -144,7 +138,7 @@ async function safeGoto(page, url) {
 
 async function tryLoginWithCookies(page, cookiesPath) {
   if (!fs.existsSync(cookiesPath)) return false;
-
+  log("info", "🍪 Trying login with cookies...");
   const cookies = JSON.parse(fs.readFileSync(cookiesPath, "utf8"));
   await page.setCookie(...cookies);
   await safeGoto(page, "https://www.linkedin.com/feed");
@@ -153,7 +147,6 @@ async function tryLoginWithCookies(page, cookiesPath) {
     log("success", "✅ Logged in using saved cookies!");
     return true;
   }
-
   log("error", "⛔ Cookie session expired. Need new login.");
   return false;
 }
@@ -223,53 +216,57 @@ async function isLoggedIn(page) {
 
 async function saveCookies(page) {
   const cookies = await page.cookies();
-  fs.writeFileSync("linkedin_cookies.json", JSON.stringify(cookies, null, 2));
+  fs.writeFileSync("linkedin_cookies2.json", JSON.stringify(cookies, null, 2));
   log("info", "💾 Cookies saved for future use.");
 }
 
 async function extractSimplifiedProfiles(page) {
-  const profiles = await page.evaluate(() => {
-    const cards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"], .artdeco-entity-lockup');
+  log("info", "🔍 Running profile extraction script in page context...");
+  const { profiles, privateCount } = await page.evaluate(() => {
+    const cards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"]');
     const seen = new Set();
     const results = [];
+    let privateCount = 0;
 
     cards.forEach((card) => {
       const anchor = card.querySelector("a[href*='/in/']");
-      const profile_url = anchor ? anchor.href.split("?")[0] : null;
-      if (!profile_url || seen.has(profile_url)) return;
+      const profile_url = anchor ? anchor.href.split("?")[0] : "N/A";
+
+      if (profile_url !== "N/A" && seen.has(profile_url)) return;
       seen.add(profile_url);
 
       const img = card.querySelector("img");
       const nameFromAlt = img?.alt?.trim();
       const spanName = card.querySelector("span[aria-hidden='true'], span")?.innerText?.trim();
-      let profile_name = nameFromAlt || spanName || "N/A";
-      profile_name = profile_name.replace(/LinkedIn Member/i, "").trim();
+      let user_profilename = nameFromAlt || spanName || "LinkedIn Member";
+      user_profilename = user_profilename.replace(/LinkedIn Member/i, "").trim() || "LinkedIn Member";
 
-      // Extract designation more precisely
       const subtitleEl = card.querySelector(
         ".org-people-profile-card__profile-title, .artdeco-entity-lockup__subtitle, .entity-result__primary-subtitle, .t-black--light"
       );
       let designation = subtitleEl?.innerText?.trim() || "N/A";
 
-      // Basic CXO-level filtering
-      const lower = `${profile_name} ${designation}`.toLowerCase();
+      const isPrivate = user_profilename === "LinkedIn Member" || designation === "N/A" || profile_url === "N/A";
+      if (isPrivate) {
+        privateCount++;
+        return;
+      }
+
+      const lower = `${user_profilename} ${designation}`.toLowerCase();
       if (
         /(ceo|cxo|coo|cto|cfo|founder|partner|vp|vice president|president|managing|chair|executive|chief)/.test(lower)
       ) {
         results.push({
-          profile_name,
+          user_profilename,
           profile_url,
           designation,
         });
       }
     });
 
-    return results;
+    return { profiles: results, privateCount };
   });
 
+  log("info", `🔢 Total private or incomplete profiles skipped: ${privateCount}`);
   return profiles;
 }
-
-
-
-
