@@ -223,7 +223,8 @@ async function saveCookies(page) {
 async function extractSimplifiedProfiles(page) {
   log("info", "🔍 Running profile extraction script in page context...");
   const { profiles, privateCount } = await page.evaluate(() => {
-    const cards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"]');
+    // const cards = document.querySelectorAll('[class*="org-people-profile-card__card-spacing"]');
+    const cards = document.querySelectorAll('.org-people-profile-card__card-spacing  ul li'); 
     const seen = new Set();
     const results = [];
     let privateCount = 0;
@@ -235,7 +236,7 @@ async function extractSimplifiedProfiles(page) {
       if (profile_url !== "N/A" && seen.has(profile_url)) return;
       seen.add(profile_url);
 
-      const img = card.querySelector("img");
+      const img = card.querySelector("img:not(.org-people-profile-card__cover-photo)");
       const nameFromAlt = img?.alt?.trim();
       const spanName = card.querySelector("span[aria-hidden='true'], span")?.innerText?.trim();
       let user_profilename = nameFromAlt || spanName || "LinkedIn Member";
