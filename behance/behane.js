@@ -1,86 +1,82 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
+const puppeteer = require("puppeteer-extra");
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+const fs = require("fs");
+puppeteer.use(StealthPlugin());
 
-async function scrapeBehanceDesigners(url) {
-  console.log('Launching browser...');
-  const browser = await puppeteer.launch({ headless: true });
-  const page = await browser.newPage();
+async function scrapeBehance() {
+    const browser = await puppeteer.launch({
+        headless: false,
+        args: ["--disable-blink-features=AutomationControlled", "--no-sandbox", "--disable-setuid-sandbox"]
+    });
+    const page = await browser.newPage();
 
-  await page.setUserAgent(
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-  );
-  console.log(`Navigating to Behance URL: ${url}`);
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-  await page.waitForSelector('.Users-bannerWrapper-ERm', { visible: true });
+    await page.setUserAgent(
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    );
+    await page.setExtraHTTPHeaders({
+        "Accept-Language": "en-US,en;q=0.9"
+    });
 
-  console.log('Scraping designer profiles...');
-  const designers = await page.evaluate(() => {
-    return Array.from(document.querySelectorAll('.UserSummaryInfo-ownerName-ZKs a'))
-      .map(link => link.href);
-  });
+    // Navigate to Behance Hire page and wait for it to load
+    await page.goto("https://www.behance.net/hire/browse?tracking_source=nav20", {
+        waitUntil: "load",
+    });
 
-  console.log(`Found ${designers.length} designer profiles.`);
-  let results = [];
+    console.log("Navigated to Behance.co agencies page.");
 
-  for (let profile of designers) {
+    // Wait for the first agency listing to appear
     try {
-      console.log(`Visiting profile: ${profile}`);
-      await page.goto(profile, { waitUntil: 'domcontentloaded', timeout: 60000 });
-      await page.waitForSelector('.ProfileCard-userFullName-ule', { visible: true });
-
-      const designerData = await page.evaluate(() => {
-        const getText = (selector) => document.querySelector(selector)?.innerText.trim() || 'Not available';
-        const getHref = (selector) => document.querySelector(selector)?.href || 'Not available';
-        const getList = (selector) => Array.from(document.querySelectorAll(selector)).map(el => el.innerText.trim());
-
-        // Extract email from inner text using regex
-        const emailMatch = document.body.innerText.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
-        const extractedEmail = emailMatch ? emailMatch[0] : 'Not Available';
-
-        return {
-          name: getText('.ProfileCard-userFullName-ule'),
-          location: getText('.ProfileDetails-userLocation-ocs '),
-          profileUrl: window.location.href,
-          badge:getText('.CreatorProBadge-pill-lJL'),
-          bio: getText('.UserInfo-bio-OZA'),
-          email: extractedEmail,
-          website: getHref('.ProfileDetails-ownerWebsite-NXm a'),
-          socialLinks: Array.from(document.querySelectorAll('.VerifiedSocial-verifiedSocialContainer-nLV a')).map(link => ({
-            label: link.innerText.trim(),
-            url: link.href
-          })),
-          linksL: Array.from(document.querySelectorAll('.WebReference-webReferenceWrapper-kbN')).map(link => ({
-            label: link.innerText.trim(),
-            url: link.href
-          }))
-          ,
-
-          stats: {
-            followers: getText('.UserInfo-statColumn-NsR UserInfo-statValue-d3q'),
-            appreciations: getText('.UserInfo-statValue-d3q UserInfo-disabledLink-gtI'),
-            views: getText('.UserInfo-statColumn-NsR UserInfo-statValue-d3q')
-          },
-          fetured:getText('.Badge-text-kub.FeaturedBadge-featuredBadgeText-_ZX'),
-          projectsCompleted: getText('.ReviewsCountLabel-truncateBadgeText-ARa'),
-          skills: getList('.UserInfo-statColumn-NsR UserInfo-statValue-d3q'),          
-          projects: getList('.UserInfo-statColumn-NsR')
-        };
-      });
-
-      console.log('Extracted:', designerData);
-      results.push(designerData);
+        await page.waitForSelector(".UserRow-root-O95", { visible: true, timeout: 60000 });
     } catch (error) {
-      console.error(`Error scraping profile ${profile}:`, error);
+        console.error("Timeout while waiting for agency listings:", error);
+        await browser.close();
+        return;
     }
-  }
 
-  // Save data to a JSON file
-  const filePath = 'behance_designers.json';
-  fs.writeFileSync(filePath, JSON.stringify(results, null, 2));
-  console.log(`Scraping complete. Data saved to ${filePath}`);
+    let agencies = [];
+    let pageNumber = 1;
 
-  await browser.close();
+    while (true) {
+        // Scrape agency data from the page
+        const pageAgencies = await page.evaluate(() => {
+            return Array.from(document.querySelectorAll(".UserRow-root-O95, .UserRow-hoverState-Y1e")).map((el) => ({
+                name: el.querySelector("[class*=UserRow-displayName]")?.textContent.trim() || "N/A",
+                work: Array.from(el.querySelectorAll("[class*=ScrollableRow-container] a")).map((s) => s.href.trim()),
+                avatar: Array.from(el.querySelectorAll("[class*=UserRow-badgesRow]")).map((s) => s.textContent.trim()),
+                location: Array.from(el.querySelectorAll("[class*=UserRow-location]")).map((c) => c.textContent.trim()),
+                isAvailable: el.querySelector("[class*=UserRow-availability]")?.textContent.trim() || "N/A",
+                isPro: el.querySelector("[class*=CreatorProBadge]")?.textContent.trim() || "N/A",                
+                projectComplete: el.querySelector(".UserRow-reviewsWrapper-daU")?.textContent.trim() || "N/A",               
+                getQuote: el.querySelector("[class*=HireUsersGrid-sendBriefBtn-yZ8]")?.textContent.trim() || "N/A",              
+                image: el.querySelector("[class*=AvatarImage-avatarImage]")?.src?.trim() || ""                                   
+            }));
+        });
+
+        agencies = agencies.concat(pageAgencies);
+        console.log(`Page ${pageNumber}: Found ${pageAgencies.length} agencies.`);
+
+        // Check for the "Load More" button and click it if it exists
+        const loadMoreButton = await page.$(".button--load-more");
+        if (loadMoreButton) {
+            console.log(`Clicking "Load More" button on page ${pageNumber}...`);
+            await loadMoreButton.click();
+
+            // Wait for new content to load after clicking
+            await page.waitForTimeout(3000);
+            pageNumber++;
+        } else {
+            console.log("No more agencies to load. Stopping...");
+            break;
+        }
+    }
+
+    // Save the scraped data to a JSON file
+    fs.writeFileSync("Behance_agencies.json", JSON.stringify(agencies, null, 2));
+    console.log("Saved data to Behance_agencies.json");
+
+    await browser.close();
 }
 
-// Example URL (search for designers on Behance)
-scrapeBehanceDesigners('https://www.behance.net/search/users/designer?search=designer');
+scrapeBehance()
+    .then(() => console.log("Scraping completed!"))
+    .catch((err) => console.error("Error:", err));
