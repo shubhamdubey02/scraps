@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 const fs = require("fs");
+const { scrapeBehanceDesignerProfile } = require("./behanceProfile");
 puppeteer.use(StealthPlugin());
 
 async function scrapeBehance() {
@@ -38,17 +39,20 @@ async function scrapeBehance() {
 
     while (true) {
         // Scrape agency data from the page
-        const pageAgencies = await page.evaluate(() => {
-            return Array.from(document.querySelectorAll(".UserRow-root-O95, .UserRow-hoverState-Y1e")).map((el) => ({
+        const pageAgencies = await page.evaluate(async () => {
+            return Array.from(document.querySelectorAll(".UserRow-root-O95, .UserRow-hoverState-Y1e")).map(async (el) => ({
                 name: el.querySelector("[class*=UserRow-displayName]")?.textContent.trim() || "N/A",
                 work: Array.from(el.querySelectorAll("[class*=ScrollableRow-container] a")).map((s) => s.href.trim()),
                 avatar: Array.from(el.querySelectorAll("[class*=UserRow-badgesRow]")).map((s) => s.textContent.trim()),
                 location: Array.from(el.querySelectorAll("[class*=UserRow-location]")).map((c) => c.textContent.trim()),
                 isAvailable: el.querySelector("[class*=UserRow-availability]")?.textContent.trim() || "N/A",
-                isPro: el.querySelector("[class*=CreatorProBadge]")?.textContent.trim() || "N/A",                
-                projectComplete: el.querySelector(".UserRow-reviewsWrapper-daU")?.textContent.trim() || "N/A",               
-                getQuote: el.querySelector("[class*=HireUsersGrid-sendBriefBtn-yZ8]")?.textContent.trim() || "N/A",              
-                image: el.querySelector("[class*=AvatarImage-avatarImage]")?.src?.trim() || ""                                   
+                isPro: el.querySelector("[class*=CreatorProBadge]")?.textContent.trim() || "N/A",
+                projectComplete: el.querySelector(".UserRow-reviewsWrapper-daU")?.textContent.trim() || "N/A",
+                getQuote: el.querySelector("[class*=HireUsersGrid-sendBriefBtn-yZ8]")?.textContent.trim() || "N/A",
+                image: el.querySelector("[class*=AvatarImage-avatarImage]")?.src?.trim() || "",
+                profileLink: el.querySelector("[class*=UserRow-anchorWrapper]").href,
+                profile: await scrapeBehanceDesignerProfile(el.querySelector("[class*=UserRow-anchorWrapper]",browser).href)
+
             }));
         });
 
